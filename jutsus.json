@@ -241,5 +241,158 @@
   "alcance": "Pessoal",
   "acao_duracao": "Livre/Instantânea",
   "descricao": "Um estilo de Kenjutsu, no qual o usuário combina o Kenjutsu com técnicas de Genjutsu e básicas (Clones, Substituição e semelhantes), onde caso use algum desses tipos de Jutsu em combinação ao Kenjutsu, poderá adicionar o Modificador de Espírito como dano adicional, além de ter um ataque adicional (apenas 1, não acumulativo) caso tenha algum clone ou alvo afetado por genjutsu em campo. Exclusivo a Ninjas de Konoha."
-}
+  },
+  {
+    "nome": "Itami o tomonau iyashi",
+    "elemento": "Ninjutsu Médico",
+    "rank": "D",
+    "custo": "1 de Chakra",
+    "alcance": "Toque",
+    "acao_duracao": "Padrão/Sustentada",
+    "descricao": "O usuário envia chakra Yang com o intuito de curar uma ferida, curando em Modificador de Constituição + d4. O alvo sente muita dor no processo."
+  },
+  {
+    "nome": "Saibō no Kasseijutsu",
+    "elemento": "Ninjutsu Médico",
+    "rank": "C",
+    "custo": "2 de Chakra",
+    "alcance": "Toque",
+    "acao_duracao": "Bônus/Sustentada",
+    "descricao": "Facilita o corpo de um alvo a receber cirurgias e curas, aumentando em 1 dado as curas recebidas pelo alvo e girando com vantagem dados de cura e de cirurgias/tratamentos. Só pode usar em outros seres."
+  },
+  {
+    "nome": "Sakkyoku gihō (Preparação)",
+    "elemento": "Ninjutsu Médico",
+    "rank": "C",
+    "custo": "2 de Chakra",
+    "alcance": "Toque",
+    "acao_duracao": "Bônus/Sustentada",
+    "descricao": "Facilita a preparação de compostos químicos, adicionando o dobro de Medicina na criação de drogas e semelhantes, e reduzindo em 1/3 o tempo de criação."
+  },
+  {
+    "nome": "Sakkyoku gihō (Diagnóstico)",
+    "elemento": "Ninjutsu Médico",
+    "rank": "C",
+    "custo": "2 de Chakra",
+    "alcance": "Toque",
+    "acao_duracao": "Bônus/Instantânea",
+    "descricao": "Identifica automaticamente qualquer lesão e doença que o corpo possua, adicionando metade do Modificador de Espírito como bônus em Medicina para tratamentos."
+  },
+  {
+    "nome": "Gedokujutsu",
+    "elemento": "Ninjutsu Médico",
+    "rank": "C",
+    "custo": "2 de Chakra",
+    "alcance": "Toque",
+    "acao_duracao": "Bônus/Instantânea",
+    "descricao": "Desfaz misturas químicas, útil para retirar venenos ou componentes específicos de um composto."
+  },
+  {
+    "nome": "Ranshinshō",
+    "elemento": "Ninjutsu Médico",
+    "rank": "B",
+    "custo": "4 de Chakra",
+    "alcance": "Toque",
+    "acao_duracao": "Padrão/Instantânea",
+    "descricao": "O alvo faz um teste de Fortitude (CD Técnica+2). Se falhar, recebe Confuso e Fraco. Se passar, recebe apenas Fraco. Ninjas Médicos têm vantagem no teste e ignoram o bônus +2 da CD."
+  },
+  {
+    "nome": "Chakura Mesu",
+    "elemento": "Ninjutsu Médico",
+    "rank": "B",
+    "custo": "4 de Chakra",
+    "alcance": "Toque",
+    "acao_duracao": "Bônus/Sustentada",
+    "descricao": "Cria uma lâmina de chakra que causa dano igual ao desarmado + Metade do Mod. de Espírito. Crítico reduzido em +1 por causar danos internos."
+  },
+  {
+    "nome": "Shiketsu Jutsu",
+    "elemento": "Ninjutsu Médico",
+    "rank": "B",
+    "custo": "4 de Chakra",
+    "alcance": "Toque",
+    "acao_duracao": "Padrão/Concentrada",
+    "descricao": "Interrompe e remove a condição Sangramento e pode ser usada contra Anêmico. Deve ser sustentada por metade dos turnos da condição para curar completamente."
+  },
+  {
+    "nome": "Shōsen Jutsu",
+    "elemento": "Ninjutsu Médico",
+    "rank": "A",
+    "custo": "8 de Chakra",
+    "alcance": "Toque",
+    "acao_duracao": "Padrão/Concentrada",
+    "descricao": "Cura HP do alvo igual ao dobro do Modificador de Espírito + d8."
+  },
+  {
+    "nome": "Chakura Kaibōtō: Zan",
+    "elemento": "Ninjutsu Médico",
+    "rank": "A",
+    "custo": "6 de Chakra",
+    "alcance": "Toque",
+    "acao_duracao": "Padrão/Instantânea",
+    "descricao": "Potencializa o próximo ataque com Chakura Mesu, agora causa dano desarmado+ Metade do Mod.de Medicina, ainda com crítico reduzido em +1 ."
+  },
+  {
+    "nome": "Saikan Chūshutsu no Jutsu",
+    "elemento": "Ninjutsu Médico",
+    "rank": "B",
+    "custo": "4 de Chakra",
+    "alcance": "Toque",
+    "acao_duracao": "Padrão/Concentrada",
+    "descricao": "Remove toxinas e condições ligadas à circulação com testes de Medicina (CD variável) por turno afetado."
+  },
+  {
+    "nome": "In'yu Shōmetsu",
+    "elemento": "Ninjutsu Médico",
+    "rank": "A",
+    "custo": "6 de Chakra",
+    "alcance": "Pessoal",
+    "acao_duracao": "Reação/Instantânea",
+    "descricao": "Antecipando dano, o usuário se cura em metade do dano recebido ao passar em um teste de Reflexo."
+  },
+  {
+    "nome": "Chakura Mesu: San",
+    "elemento": "Ninjutsu Médico",
+    "rank": "S",
+    "custo": "10 de Chakra",
+    "alcance": "Pessoal",
+    "acao_duracao": "Bônus/Sustentada",
+    "descricao": "Versão avançada do Chakura Mesu, causa dano igual ao dano desarmado+Modificador de Medicina+d4 com +2 de crítico reduzido."
+  },
+  {
+    "nome": "Shikon no Jutsu",
+    "elemento": "Ninjutsu Médico",
+    "rank": "S",
+    "custo": "10 de Chakra",
+    "alcance": "14 metros",
+    "acao_duracao": "Bônus/Sustentada",
+    "descricao": "Reanima cadáveres por turnos igual ao Mod. de Espírito. Eles têm metade dos modificadores e não têm perícias. Pode controlar um por vez."
+  },
+  {
+    "nome": "Chikatsu Saisei no Jutsu",
+    "elemento": "Ninjutsu Médico",
+    "rank": "A",
+    "custo": "6 de Chakra",
+    "alcance": "4 metros/Toque",
+    "acao_duracao": "Padrão/Concentrada",
+    "descricao": "Aumenta a regeneração de membros. Pode ser realizado em conjunto com outros usuários para acelerar a cura."
+  },
+  {
+    "nome": "Sōzō Saisei",
+    "elemento": "Ninjutsu Médico",
+    "rank": "S",
+    "custo": "10 de Chakra",
+    "alcance": "Pessoal",
+    "acao_duracao": "Padrão/Instantânea",
+    "descricao": "Cura completamente qualquer ferida ou condição do combate ao custo de 5 anos da vida do usuário. Exige Selo de Cem Forças."
+  },
+  {
+    "nome": "Ninpou Sōzō Saisei — Byakugō no Jutsu",
+    "elemento": "Ninjutsu Médico",
+    "rank": "S",
+    "custo": "10 de Chakra",
+    "alcance": "Pessoal",
+    "acao_duracao": "Livre/Sustentada",
+    "descricao": "Enquanto ativa, cura automaticamente qualquer dano no fim do turno e impede o HP de chegar a 0. Cada turno ativo consome 2 anos de vida. Exige Selo de Cem Forças."
+  }
 ]
