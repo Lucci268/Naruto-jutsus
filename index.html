@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-Bt">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,7 +16,7 @@
 
   <main class="p-6 max-w-5xl mx-auto">
     <div class="mb-6 flex flex-col md:flex-row md:items-center gap-4 flex-wrap">
-      <input type="text" id="searchInput" placeholder="Buscar Jutsu..." class="w-full md:w-1/3 p-2 border rounded">
+      <input type="text" id="searchInput" placeholder="Buscar Jutsu..." class="w-full md:w-1/3 p-2 border rounded" />
 
       <select id="categoriaFilter" class="p-2 border rounded">
         <option value="">Todos os Elementos/Tipos</option>
@@ -62,6 +62,25 @@
       renderJutsus();
     }
 
+    function getConhecidos() {
+      return JSON.parse(localStorage.getItem("jutsusConhecidos") || "[]");
+    }
+
+    function isConhecido(nome) {
+      return getConhecidos().includes(nome);
+    }
+
+    function toggleConhecido(nome) {
+      const conhecidos = getConhecidos();
+      const index = conhecidos.indexOf(nome);
+      if (index === -1) {
+        conhecidos.push(nome);
+      } else {
+        conhecidos.splice(index, 1);
+      }
+      localStorage.setItem("jutsusConhecidos", JSON.stringify(conhecidos));
+    }
+
     function renderJutsus() {
       const search = document.getElementById("searchInput").value.toLowerCase();
       const categoria = document.getElementById("categoriaFilter").value;
@@ -77,13 +96,26 @@
 
       const list = document.getElementById("jutsuList");
       list.innerHTML = filtered.map(j => `
-        <div class="card bg-white p-4 shadow-md rounded-xl">
-          <h2 class="text-xl font-bold text-red-600">${j.nome}</h2>
+        <div class="card bg-white p-4 shadow-md rounded-xl flex flex-col">
+          <div class="flex justify-between items-center mb-2">
+            <h2 class="text-xl font-bold text-red-600">${j.nome}</h2>
+            <label class="flex items-center space-x-1 cursor-pointer">
+              <input type="checkbox" class="conhecido-checkbox" data-nome="${j.nome}" ${isConhecido(j.nome) ? "checked" : ""} />
+              <span class="text-sm select-none">Conhecido</span>
+            </label>
+          </div>
           <p class="italic text-sm mb-2">Categoria: ${j.elemento || "-"} | Rank: ${j.rank}</p>
           <p class="text-sm">${j.descricao}</p>
           <p class="text-xs mt-2 text-gray-600">Custo: ${j.custo} | Alcance: ${j.alcance} | Ação: ${j.acao_duracao}</p>
         </div>
       `).join("");
+
+      document.querySelectorAll(".conhecido-checkbox").forEach(checkbox => {
+        checkbox.addEventListener("change", e => {
+          const nome = e.target.dataset.nome;
+          toggleConhecido(nome);
+        });
+      });
     }
 
     document.getElementById("searchInput").addEventListener("input", renderJutsus);
@@ -94,4 +126,5 @@
   </script>
 </body>
 </html>
+
 
