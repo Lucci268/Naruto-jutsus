@@ -18,13 +18,20 @@
     <div class="mb-6 flex flex-col md:flex-row md:items-center gap-4 flex-wrap">
       <input type="text" id="searchInput" placeholder="Buscar Jutsu..." class="w-full md:w-1/3 p-2 border rounded">
 
-      <select id="elementFilter" class="p-2 border rounded">
-        <option value="">Todos os Elementos</option>
+      <select id="categoriaFilter" class="p-2 border rounded">
+        <option value="">Todos os Elementos/Tipos</option>
         <option value="Katon">Katon</option>
         <option value="Suiton">Suiton</option>
         <option value="Doton">Doton</option>
         <option value="Raiton">Raiton</option>
         <option value="Fuuton">Fuuton</option>
+        <option value="Básico">Básico</option>
+        <option value="Ninjutsu Médico">Ninjutsu Médico</option>
+        <option value="Fuuinjutsu">Fuuinjutsu</option>
+        <option value="Genjutsu">Genjutsu</option>
+        <option value="Taijutsu">Taijutsu</option>
+        <option value="Kenjutsu">Kenjutsu</option>
+        <option value="Shurikenjutsu">Shurikenjutsu</option>
       </select>
 
       <select id="rankFilter" class="p-2 border rounded">
@@ -36,24 +43,13 @@
         <option value="A">Rank A</option>
         <option value="S">Rank S</option>
       </select>
-
-      <select id="tipoFilter" class="p-2 border rounded">
-        <option value="">Todos os Tipos</option>
-        <option value="Básico">Básico</option>
-        <option value="Ninjutsu Médico">Ninjutsu Médico</option>
-        <option value="Fuuinjutsu">Fuuinjutsu</option>
-        <option value="Genjutsu">Genjutsu</option>
-        <option value="Taijutsu">Taijutsu</option>
-        <option value="Kenjutsu">Kenjutsu</option>
-        <option value="Shurikenjutsu">Shurikenjutsu</option>
-      </select>
     </div>
 
     <div id="jutsuList" class="grid md:grid-cols-2 gap-4"></div>
   </main>
 
   <footer class="text-center text-sm text-gray-500 py-4">
-    Site de fã — baseado no universo de Naruto. Criado com amor ninja 🌀
+    Site de RPG
   </footer>
 
   <script>
@@ -68,16 +64,14 @@
 
     function renderJutsus() {
       const search = document.getElementById("searchInput").value.toLowerCase();
-      const element = document.getElementById("elementFilter").value;
+      const categoria = document.getElementById("categoriaFilter").value;
       const rank = document.getElementById("rankFilter").value;
-      const tipo = document.getElementById("tipoFilter").value;
 
       const filtered = jutsus.filter(jutsu => {
         return (
           (!search || jutsu.nome.toLowerCase().includes(search)) &&
-          (!element || jutsu.elemento === element) &&
-          (!rank || jutsu.rank === rank) &&
-          (!tipo || jutsu.tipo === tipo)
+          (!categoria || jutsu.elemento === categoria) &&
+          (!rank || jutsu.rank === rank)
         );
       });
 
@@ -85,7 +79,7 @@
       list.innerHTML = filtered.map(j => `
         <div class="card bg-white p-4 shadow-md rounded-xl">
           <h2 class="text-xl font-bold text-red-600">${j.nome}</h2>
-          <p class="italic text-sm mb-2">Elemento: ${j.elemento} | Rank: ${j.rank} | Tipo: ${j.tipo || "-"}</p>
+          <p class="italic text-sm mb-2">Categoria: ${j.elemento || "-"} | Rank: ${j.rank}</p>
           <p class="text-sm">${j.descricao}</p>
           <p class="text-xs mt-2 text-gray-600">Custo: ${j.custo} | Alcance: ${j.alcance} | Ação: ${j.acao_duracao}</p>
         </div>
@@ -93,11 +87,11 @@
     }
 
     document.getElementById("searchInput").addEventListener("input", renderJutsus);
-    document.getElementById("elementFilter").addEventListener("change", renderJutsus);
+    document.getElementById("categoriaFilter").addEventListener("change", renderJutsus);
     document.getElementById("rankFilter").addEventListener("change", renderJutsus);
-    document.getElementById("tipoFilter").addEventListener("change", renderJutsus);
 
     loadJutsus();
   </script>
 </body>
 </html>
+
