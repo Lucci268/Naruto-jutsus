@@ -394,5 +394,159 @@
     "alcance": "Pessoal",
     "acao_duracao": "Livre/Sustentada",
     "descricao": "Enquanto ativa, cura automaticamente qualquer dano no fim do turno e impede o HP de chegar a 0. Cada turno ativo consome 2 anos de vida. Exige Selo de Cem Forças."
+  },
+  {
+    "nome": "Hana Ninpou: Kyōkasui",
+    "elemento": "Genjutsu",
+    "rank": "C",
+    "custo": "2 de Chakra",
+    "alcance": "Mod. de Espírito em metros",
+    "acao_duracao": "Padrão/Concentrada",
+    "descricao": "É uma técnica de Genjutsu, no qual o usuário cria um campo de pétalas de chakra Yin, onde caso inimigos em área entrem em contato, devem girar um teste de Vontade (CD Técnica). Caso falhem, ficarão Cegos pela duração do Genjutsu."
+  },
+  {
+    "nome": "Magen: Narakumi no Jutsu",
+    "elemento": "Genjutsu",
+    "rank": "C",
+    "custo": "2 de Chakra",
+    "alcance": "Mod. de Espírito em metros",
+    "acao_duracao": "Padrão/Instantânea",
+    "descricao": "Técnica da Visão do Inferno que provoca medo consciente ou inconsciente no alvo, revelando seu terror escondido. O alvo deve realizar um teste de Vontade (CD Técnica); em uma falha recebe a condição Abalado, e se já estiver Abalado, fica Apavorado."
+  },
+  {
+    "nome": "Genjutsu Shibari",
+    "elemento": "Genjutsu",
+    "rank": "B",
+    "custo": "4 de Chakra",
+    "alcance": "Mod. de Espírito em metros",
+    "acao_duracao": "Padrão/Instantânea",
+    "descricao": "O inimigo deve girar um teste de vontade (CD da técnica). Caso falhe, fica paralisado dentro do genjutsu. Pode ser usado em múltiplos alvos e o teste pode ser repetido no início dos turnos subsequentes."
+  },
+  {
+    "nome": "Genjutsu: Mame no ki tōgoku",
+    "elemento": "Genjutsu",
+    "rank": "C",
+    "custo": "2 de Chakra",
+    "alcance": "Mod. de Espírito em metros",
+    "acao_duracao": "Bônus/Instantânea",
+    "descricao": "O usuário desaparece enquanto o alvo vê vinhas que crescem do chão. O alvo deve rolar teste de reflexos (CD da técnica), falhando fica Agarrado e o usuário pode efetua ataque de oportunidade."
+  },
+  {
+    "nome": "Genjutsu: Nejire",
+    "elemento": "Genjutsu",
+    "rank": "C",
+    "custo": "2 de Chakra",
+    "alcance": "Variável",
+    "acao_duracao": "Bônus/Instantânea",
+    "descricao": "Genjutsu visual ativado por gatilho visual, que borram a visão do alvo e faz a vítima sentir que está afundando, imobilizando-a. Fica Confuso no primeiro turno, podendo sair no segundo com teste de Vontade (CD Técnica-3)."
+  },
+  {
+    "nome": "Genjutsu: Utakata",
+    "elemento": "Genjutsu",
+    "rank": "C",
+    "custo": "2 de Chakra",
+    "alcance": "Mod. de Espírito em metros",
+    "acao_duracao": "Bônus/Instantânea",
+    "descricao": "Faz o alvo entrar em confusão mental ao ver o dedo do usuário se falhar em teste de Reflexos (CD Técnica). Pode aplicar condição mental leve por turnos iguais à metade do Mod. de Espírito do usuário."
+  },
+  {
+    "nome": "Genjutsu: Kagamigaeshi",
+    "elemento": "Genjutsu",
+    "rank": "B",
+    "custo": "Igual ao da técnica do inimigo",
+    "alcance": "Mod. de Espírito em metros",
+    "acao_duracao": "Padrão/Instantânea",
+    "descricao": "Genjutsu visual que faz o inimigo atacar a si mesmo se falhar em teste de Percepção contra Vontade do usuário, ficando Vulnerável."
+  },
+  {
+    "nome": "Raiton: Raigen Raikōchū",
+    "elemento": "Genjutsu",
+    "rank": "B",
+    "custo": "4 de Chakra",
+    "alcance": "Mod. de Espírito (dobro) em metros",
+    "acao_duracao": "Padrão/Concentrada",
+    "descricao": "Usuário emana luz intensa que pode cegar inimigos. Alvo deve fazer teste de Reflexos (CD Técnica) para não ficar cego. Inimigos cegados alucinam e ficam Vulneráveis. Requer Estilo Raio."
+  },
+  {
+    "nome": "Magen: Shinkarasu",
+    "elemento": "Genjutsu",
+    "rank": "B",
+    "custo": "4 de Chakra",
+    "alcance": "Mod. de Espírito em metros",
+    "acao_duracao": "Padrão/Instantânea",
+    "descricao": "Lança corvos reais que criam uma poderosa ilusão. Alvo falhar em teste de Intuição (CD Técnica), fica Indefeso e Desprevenido. Pode ser mantido com concentração e requer corvos."
+  },
+  {
+    "nome": "Hyakkaryōran",
+    "elemento": "Genjutsu",
+    "rank": "B",
+    "custo": "4 de Chakra",
+    "alcance": "Mod. de Espírito em metros",
+    "acao_duracao": "Padrão/Instantânea",
+    "descricao": "Genjutsu olfativo espalhado por perfume ou substância gasosa. Camufla o usuário (50%) e aplica desvantagem no acerto de ataques aos inimigos que cheiram o aroma."
+  },
+  {
+    "nome": "Jishaku Ninpou: Denji Genmu",
+    "elemento": "Genjutsu",
+    "rank": "B",
+    "custo": "4 de Chakra",
+    "alcance": "Mod. de Espírito em metros",
+    "acao_duracao": "Padrão/Instantânea",
+    "descricao": "Usuário libera pó metálico que aplica Genjutsu a todos que receberem, os deixando Desabilitados se falharem em teste de Reflexos (CD Técnica). Usuários de Jiton aplicam como ação adicional com +2 na CD."
+  },
+  {
+    "nome": "Genjutsu no Hanabira ",
+    "elemento": "Genjutsu",
+    "rank": "B",
+    "custo": "4 de Chakra",
+    "alcance": "Pessoal",
+    "acao_duracao": "Reação/Instantânea",
+    "descricao": "Usada em conjunto com substituição, permite usar qualquer Genjutsu do arsenal como reação com desvantagem para o oponente na CD. O efeito da substituição é trocado por pétalas ou outra escolha do usuário."
+  },
+  {
+    "nome": "Fuuton: Sajin Senpuu",
+    "elemento": "Genjutsu",
+    "rank": "B",
+    "custo": "4 de CHakra",
+    "alcance": "Mod. de Espírito em metros",
+    "acao_duracao": "Padrão/Concentrada",
+    "descricao": "Cria um campo de areia ao redor dos inimigos, distraindo-os com falsos inimigos miragem, aplicando Desprevenido e Ofuscado. Alvos devem fazer teste de Reflexos contra Vontade para sair da área. Requer Estilo Terra e, se tiver Jiton (Suna), teste com vantagem."
+  },
+  {
+    "nome": "Kane no Oto",
+    "elemento": "Genjutsu",
+    "rank": "B",
+    "custo": 4,
+    "alcance": "Mod. de Espírito em metros",
+    "acao_duracao": "Bônus/Sustentada",
+    "descricao": "Usa sinos que liberam Genjutsu no som, aplicando 2 condições mentais leves à escolha para quem falhar em teste de Percepção com desvantagem. O Genjutsu dura enquanto o usuário gastar chakra e tocar os sinos."
+  },
+  {
+    "nome": "Magen: Jubakusatsu",
+    "elemento": "Genjutsu",
+    "rank": "A",
+    "custo": "6 de Chakra",
+    "alcance": "Mod. de Espírito em metros",
+    "acao_duracao": "Padrão/Instantânea",
+    "descricao": "Força um alvo no mesmo ambiente a ficar preso em um Genjutsu de uma grande árvore que o imobiliza, com teste de Vontade (CD Técnica+5). Alvo fica Indefeso e Vulnerável, recebe dano com vantagem e dá golpe de oportunidade."
+  },
+  {
+    "nome": "Shitsumon suru",
+    "elemento": "Genjutsu",
+    "rank": "A",
+    "custo": "6 de Chakra",
+    "alcance": "Toque",
+    "acao_duracao": "Padrão/Concentrada",
+    "descricao": "Permite invadir a mente de inimigo indefeso/imobilizado ou preso em genjutsu, forçando-o a falar a verdade, seguir comandos básicos e obter informações. Alvo pode sair se libertando dp Genjutsu que tiver recebido anteriormente."
+  },
+  {
+    "nome": "Kokuangyo no Jutsu",
+    "elemento": "Genjutsu",
+    "rank": "S",
+    "custo": "10 de Chakra",
+    "alcance": "Mod. de Espírito em metros ao dobro",
+    "acao_duracao": "Padrão/Concentrada",
+    "descricao": "Genjutsu Definitivo que aplica condição Cego e Vulnerável a todos inimigos no ambiente por turnos iguais ao Mod. de Espírito do usuário. Pode ser desfeito só com derrota ou incapacitação do usuário. Técnicas oculares ou contato visual são inutilizadas."
   }
 ]
+
