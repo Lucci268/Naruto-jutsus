@@ -12,7 +12,7 @@
     "nome": "Kirigakure Kenjutsu",
     "elemento": "Kenjutsu",
     "rank": "B",
-    "custo": "Sem Custo",
+    "custo": "Sem custo",
     "alcance": "Pessoal",
     "acao_duracao": "Livre/Instantânea",
     "descricao": "Um estilo de Kenjutsu no qual o usuário foca em golpes fatais para executar seus inimigos. Seu crítico de armas é naturalmente reduzido em +1, e seus acertos críticos ignoram Resistências e têm vantagem no giro de dado."
@@ -21,7 +21,7 @@
     "nome": "Kumoryū Kaengiri",
     "elemento": "Kenjutsu",
     "rank": "A",
-    "custo": "6 de Chakra",
+    "custo": "6 de chakra",
     "alcance": "5 metros",
     "acao_duracao": "Padrão/Instantânea",
     "descricao": "Técnica de Kenjutsu de Kumogakure que cria um círculo de fogo ao redor do usuário e aliados. Inimigos atingidos recebem dano da arma + Mod de Kenjutsu e podem ficar com a condição Queimado se falharem em um teste de Fortitude contra Kenjutsu do usuário."
@@ -30,7 +30,7 @@
     "nome": "Kumoryū Mizakugiri",
     "elemento": "Kenjutsu",
     "rank": "A",
-    "custo": "6 de Chakra",
+    "custo": "6 de chakra",
     "alcance": "Pessoal",
     "acao_duracao": "Padrão/Instantânea",
     "descricao": "Técnica de Kenjutsu de Kumogakure com corte horizontal. Aplica dano com vantagem e em dobro contra construtos de chakra e similares. O dano é igual ao da arma com bônus de Kenjutsu de Kumo."
@@ -39,7 +39,7 @@
     "nome": "Kumoryū: Raikōken",
     "elemento": "Kenjutsu",
     "rank": "B",
-    "custo": "4 de Chakra",
+    "custo": "4 de chakra",
     "alcance": "Toque",
     "acao_duracao": "Padrão/Instantânea",
     "descricao": "Técnica de Kenjutsu de Kumogakure que reforça a arma com Estilo Raio. O dano contra Kenjutsu e Taijutsu é dobrado e com vantagem. Facilita obstruir armas e neutralizar Taijutsus."
@@ -57,7 +57,7 @@
     "nome": "Oborozukiyo",
     "elemento": "Kenjutsu",
     "rank": "A",
-    "custo": "6 de Chakra",
+    "custo": "6 de chakra",
     "alcance": "Pessoal",
     "acao_duracao": "Padrão/Instantânea",
     "descricao": "Técnica de Kenjutsu de Konoha que cria imagens falsas do usuário ao atacar, repetindo metade do dano por vezes iguais à proficiência, com redução pela metade a cada repetição."
@@ -66,7 +66,7 @@
     "nome": "Hiken: Tsukikage",
     "elemento": "Kenjutsu",
     "rank": "A",
-    "custo": "6 de Chakra",
+    "custo": "6 de chakra",
     "alcance": "Pessoal",
     "acao_duracao": "Bônus/Instantânea",
     "descricao": "Técnica de Kenjutsu de Konoha onde o usuário se move rapidamente, gerando imagens posteriores, ganhando deslocamento adicional igual à metade do Mod de Kenjutsu, vantagem em Furtividade e em Golpes de Oportunidade."
@@ -75,7 +75,7 @@
     "nome": "Akurobatto",
     "elemento": "Kenjutsu",
     "rank": "S",
-    "custo": "Sem Custo",
+    "custo": "Sem custo",
     "alcance": "Pessoal",
     "acao_duracao": "Livre/Instantânea",
     "descricao": "Estilo de Kenjutsu que exige Kakuran Taijutsu. O usuário usa 7 lâminas pequenas nas juntas e boca, aplicando dano de todas as armas simultaneamente e condição Desprevenido. Não permite crítico nesses ataques."
@@ -84,7 +84,7 @@
     "nome": "Hadan",
     "elemento": "Kenjutsu",
     "rank": "S",
-    "custo": "10 de Chakra",
+    "custo": "10 de chakra",
     "alcance": "Pessoal",
     "acao_duracao": "Padrão & Reação/Instantânea",
     "descricao": "Técnica de Kenjutsu com múltiplos golpes em área. Inimigos que falharem um teste de Reflexos contra Kenjutsu recebem dano da arma por vezes iguais ao Mod de Força ou Destreza. Se usada como reação, causa dano máximo e impede reação dos alvos. Dano total é reduzido pela metade."
@@ -93,7 +93,7 @@
     "nome": "Shunsokuzan",
     "elemento": "Kenjutsu",
     "rank": "S",
-    "custo": "10 de Chakra",
+    "custo": "10 de chakra",
     "alcance": "10 metros",
     "acao_duracao": "Padrão/Instantânea",
     "descricao": "Técnica de Kenjutsu que permite atacar múltiplos inimigos com um único teste de ataque, usando a menor CA entre os alvos. Causa dano máximo e pode aplicar Debilitado em quem falhar Reflexo contra Kenjutsu. Clones são desfeitos automaticamente."
@@ -102,7 +102,7 @@
     "nome": "Mijingiri",
     "elemento": "Kenjutsu",
     "rank": "C",
-    "custo": "2 de Chakra",
+    "custo": "2 de chakra",
     "alcance": "Pessoal",
     "acao_duracao": "Padrão & Reação/Instantânea",
     "descricao": "Uma técnica de Kenjutsu, no qual o usuário rotaciona usando de seu peso e espada para dar um corte giratório em área, aplicando o dano da arma girando com vantagem+Modificador de Força. Pode ser usado para revidar ataques corpo-a-corpo e projéteis pequenos como shurikens e kunais."
@@ -111,7 +111,7 @@
     "nome": "Yosakugiri",
     "elemento": "Kenjutsu",
     "rank": "C",
-    "custo": "2 de Chakra",
+    "custo": "2 de chakra",
     "alcance": "Pessoal",
     "acao_duracao": "Padrão/Instantânea",
     "descricao": "Uma técnica de Kenjutsu, no qual o usuário usa da sua arma para golpear os pés de um inimigo, onde caso o inimigo falhe em um teste de Reflexos contra um de Kenjutsu do usuário, receberá o dano da arma+Modificador de Destreza e a condição Caído."
@@ -120,7 +120,7 @@
     "nome": "Iaigiri",
     "elemento": "Kenjutsu",
     "rank": "C",
-    "custo": "2 de Chakra",
+    "custo": "2 de chakra",
     "alcance": "Pessoal",
     "acao_duracao": "Padrão/Instantânea",
     "descricao": "Uma técnica de Kenjutsu, no qual o usuário efetua um ataque preciso de baixo para cima, aplicando um dano adicional ao da arma igual ao Modificador de Força ou Destreza, sendo necessário o usuário pular com antecedência."
@@ -129,7 +129,7 @@
     "nome": "Shinkūken",
     "elemento": "Kenjutsu",
     "rank": "C",
-    "custo": "2 de Chakra",
+    "custo": "2 de chakra",
     "alcance": "Modificador de Kenjutsu em metros",
     "acao_duracao": "Padrão & Reação/Instantânea",
     "descricao": "Uma técnica de Kenjutsu, no qual o usuário efetua um forte golpe em arco com a sua arma, gerando uma rajada de vento que aplica o dano da sua arma a distância aumentando em 1 dado de dano. Pode ser usada para combater projéteis e se o usuário tiver o Estilo Vento, terá vantagem no acerto e dano."
@@ -138,7 +138,7 @@
     "nome": "Gōken",
     "elemento": "Kenjutsu",
     "rank": "C",
-    "custo": "2 de Chakra",
+    "custo": "2 de chakra",
     "alcance": "Pessoal",
     "acao_duracao": "Bônus/Sustentada",
     "descricao": "Uma técnica de Kenjutsu, no qual o usuário reveste sua lâmina com chakra, aumentando o dano da mesma em 1 dado e girando qualquer teste de Força usando sua arma com vantagem."
@@ -147,7 +147,7 @@
     "nome": "Hisenken",
     "elemento": "Kenjutsu",
     "rank": "C",
-    "custo": "2 de Chakra",
+    "custo": "2 de chakra",
     "alcance": "Pessoal",
     "acao_duracao": "Padrão/Instantânea",
     "descricao": "Uma técnica de Kenjutsu, no qual o usuário lança a sua arma em um golpe giratório, sendo que ao acertar um alvo, ficará encravada e poderá servir de apoio para o usuário, ela causa o dano da arma+1d4."
@@ -156,7 +156,7 @@
     "nome": "Issen",
     "elemento": "Kenjutsu",
     "rank": "C",
-    "custo": "2 de Chakra",
+    "custo": "2 de chakra",
     "alcance": "Modificador de Espírito em metros",
     "acao_duracao": "Bônus/Instantânea",
     "descricao": "Uma técnica de Kenjutsu, no qual o usuário efetua um corte no ar revestido de chakra, causando o dano da arma com vantagem no acerto e dano."
@@ -165,7 +165,7 @@
     "nome": "Butsugiri",
     "elemento": "Kenjutsu",
     "rank": "C",
-    "custo": "2 de Chakra",
+    "custo": "2 de chakra",
     "alcance": "Pessoal",
     "acao_duracao": "Padrão/Instantânea",
     "descricao": "Uma técnica de Kenjutsu, no qual o usuário efetua um golpe fatal contra um alvo caído, onde o dano é aumentado igual ao Modificador mais alto do usuário e o alvo receberá o dano garantido, mas pode reduzir pela metade se passar em um teste de Fortitude."
@@ -174,7 +174,7 @@
     "nome": "Iaidō",
     "elemento": "Kenjutsu",
     "rank": "B",
-    "custo": "4 de Chakra",
+    "custo": "4 de chakra",
     "alcance": "Pessoal",
     "acao_duracao": "Livre/Instantânea",
     "descricao": "Um estilo de Kenjutsu onde o usuário foca em golpes suaves, mas precisos de saque, onde pode sacar e atacar no mesmo turno em um ataque que aplica a condição Desprevenido ao inimigo. Para se utilizar desse estilo, é sempre necessário guardar a arma para a sacar no próximo turno, também reduzindo o valor necessário de crítico em +1."
@@ -183,7 +183,7 @@
     "nome": "Tsukikage",
     "elemento": "Kenjutsu",
     "rank": "C",
-    "custo": "2 de Chakra",
+    "custo": "2 de chakra",
     "alcance": "Pessoal",
     "acao_duracao": "Padrão/Instantânea",
     "descricao": "Uma técnica de Kenjutsu, no qual o usuário ganha um ataque corpo-a-corpo adicional após acertar um ataque usando de sua arma, onde o seu dano desarmado terá um valor adicional igual ao da arma que usa com vantagem no acerto."
@@ -192,7 +192,7 @@
     "nome": "Zankō",
     "elemento": "Kenjutsu",
     "rank": "B",
-    "custo": "4 de Chakra",
+    "custo": "4 de chakra",
     "alcance": "Pessoal",
     "acao_duracao": "Padrão/Instantânea",
     "descricao": "Uma técnica de Kenjutsu, no qual o usuário efetua um corte veloz em alta velocidade, onde caso o inimigo falhe em um teste de Reflexos contra o usuário, receberá o dano máximo da sua arma."
@@ -201,7 +201,7 @@
     "nome": "Ansatsu Jutsu",
     "elemento": "Kenjutsu",
     "rank": "B",
-    "custo": "4 de Chakra",
+    "custo": "4 de chakra",
     "alcance": "Pessoal",
     "acao_duracao": "Padrão/Instantânea",
     "descricao": "Uma técnica de Kenjutsu, no qual o usuário aplica golpes adicionais a um inimigo iguais a metade do Modificador de Destreza, porém com os ataques consequentes tendo dano reduzido pela metade."
@@ -210,7 +210,7 @@
     "nome": "Mizuki Zanmai",
     "elemento": "Kenjutsu",
     "rank": "B",
-    "custo": "4 de Chakra",
+    "custo": "4 de chakra",
     "alcance": "Pessoal",
     "acao_duracao": "Padrão/Instantânea",
     "descricao": "Uma técnica de Kenjutsu, no qual o usuário ganha dados de dano adicionais com sua arma igual a metade do Modificador de Força, caso seja usado contra construtos e objetos mais sólidos, o dano será em dobro e máximo."
@@ -219,18 +219,18 @@
     "nome": "Setsuna",
     "elemento": "Kenjutsu",
     "rank": "B",
-    "custo": "4 de Chakra",
+    "custo": "4 de chakra",
     "alcance": "Pessoal",
     "acao_duracao": "Padrão/Instantânea",
     "descricao": "Uma técnica de Kenjutsu, no qual o usuário efetua um movimento veloz, onde caso um inimigo falhe em um teste de Reflexos contra o usuário, receberá dano adicional igual ao próprio Modificador de Constituição, além da condição de Sangramento."
   },
   {
-  "nome": "Kumoryū Kenjutsu",
-  "elemento": "Kenjutsu",
-  "rank": "B",
-  "custo": "Sem Custo",
-  "alcance": "Pessoal",
-  "acao_duracao": "Livre/Instantânea",
-  "descricao": "Um estilo de Kenjutsu no qual o usuário combina o Kenjutsu com técnicas de Liberação Elemental, podendo adicionar a Afinidade Elemental do usuário como tipo de dano adicional, além de permanentemente adicionar dano às suas armas igual à metade do Modificador de Espírito. Exclusivo a Ninjas de Kumo."
-}
+    "nome": "Kumoryū Kenjutsu",
+    "elemento": "Kenjutsu",
+    "rank": "B",
+    "custo": "Sem custo",
+    "alcance": "Pessoal",
+    "acao_duracao": "Livre/Instantânea",
+    "descricao": "Um estilo de Kenjutsu no qual o usuário combina o Kenjutsu com técnicas de Liberação Elemental, podendo adicionar a Afinidade Elemental do usuário como tipo de dano adicional, além de permanentemente adicionar dano às suas armas igual à metade do Modificador de Espírito. Exclusivo a Ninjas de Kumo."
+  }
 ]
