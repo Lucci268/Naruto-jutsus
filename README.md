@@ -1,7 +1,8 @@
 
 # Naruto Jutsus
 
-Site de busca e consulta para jutsus baseados no universo de Naruto.
+Site de busca e consulta para jutsus do RPG
+.
 
 ## Como usar
 
@@ -9,4 +10,4 @@ Site de busca e consulta para jutsus baseados no universo de Naruto.
 2. Vá em Settings > Pages e selecione a branch `main` e a pasta `/root` como fonte.
 3. O site ficará disponível em: `https://seu-usuario.github.io/Naruto-jutsus/`
 
-Feito com ❤️ por fãs de Naruto.
+Feito por Luciano Henrique Pereira Cordeiro.
