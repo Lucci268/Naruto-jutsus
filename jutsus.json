@@ -232,5 +232,14 @@
     "alcance": "Pessoal",
     "acao_duracao": "Livre/Instantânea",
     "descricao": "Um estilo de Kenjutsu no qual o usuário combina o Kenjutsu com técnicas de Liberação Elemental, podendo adicionar a Afinidade Elemental do usuário como tipo de dano adicional, além de permanentemente adicionar dano às suas armas igual à metade do Modificador de Espírito. Exclusivo a Ninjas de Kumo."
-  }
+  },
+  {
+  "nome": "Konoharyū Kenjutsu",
+  "elemento": "Kenjutsu",
+  "rank": "B",
+  "custo": "-",
+  "alcance": "Pessoal",
+  "acao_duracao": "Livre/Instantânea",
+  "descricao": "Um estilo de Kenjutsu, no qual o usuário combina o Kenjutsu com técnicas de Genjutsu e básicas (Clones, Substituição e semelhantes), onde caso use algum desses tipos de Jutsu em combinação ao Kenjutsu, poderá adicionar o Modificador de Espírito como dano adicional, além de ter um ataque adicional (apenas 1, não acumulativo) caso tenha algum clone ou alvo afetado por genjutsu em campo. Exclusivo a Ninjas de Konoha."
+}
 ]
