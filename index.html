@@ -43,6 +43,11 @@
         <option value="A">Rank A</option>
         <option value="S">Rank S</option>
       </select>
+
+      <label class="flex items-center space-x-2">
+        <input type="checkbox" id="knownOnlyCheckbox" />
+        <span>Mostrar apenas Conhecidos</span>
+      </label>
     </div>
 
     <div id="jutsuList" class="grid md:grid-cols-2 gap-4"></div>
@@ -85,13 +90,15 @@
       const search = document.getElementById("searchInput").value.toLowerCase();
       const categoria = document.getElementById("categoriaFilter").value;
       const rank = document.getElementById("rankFilter").value;
+      const knownOnly = document.getElementById("knownOnlyCheckbox").checked;
 
       const filtered = jutsus.filter(jutsu => {
-        return (
-          (!search || jutsu.nome.toLowerCase().includes(search)) &&
-          (!categoria || jutsu.elemento === categoria) &&
-          (!rank || jutsu.rank === rank)
-        );
+        const matchSearch = !search || jutsu.nome.toLowerCase().includes(search);
+        const matchCategoria = !categoria || jutsu.elemento === categoria;
+        const matchRank = !rank || jutsu.rank === rank;
+        const matchConhecido = !knownOnly || isConhecido(jutsu.nome);
+
+        return matchSearch && matchCategoria && matchRank && matchConhecido;
       });
 
       const list = document.getElementById("jutsuList");
@@ -114,6 +121,7 @@
         checkbox.addEventListener("change", e => {
           const nome = e.target.dataset.nome;
           toggleConhecido(nome);
+          renderJutsus();
         });
       });
     }
@@ -121,6 +129,7 @@
     document.getElementById("searchInput").addEventListener("input", renderJutsus);
     document.getElementById("categoriaFilter").addEventListener("change", renderJutsus);
     document.getElementById("rankFilter").addEventListener("change", renderJutsus);
+    document.getElementById("knownOnlyCheckbox").addEventListener("change", renderJutsus);
 
     loadJutsus();
   </script>
