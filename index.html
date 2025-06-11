@@ -2,14 +2,11 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jutsus de Naruto</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    .card:hover { 
-      transform: scale(1.02); 
-      transition: transform 0.2s ease-in-out; 
-    }
+    .card:hover { transform: scale(1.02); transition: transform 0.2s ease-in-out; }
   </style>
 </head>
 <body class="bg-gray-100 text-gray-800">
@@ -18,7 +15,7 @@
   </header>
 
   <main class="p-6 max-w-5xl mx-auto">
-    <div class="mb-4 flex flex-col md:flex-row md:items-center gap-4 flex-wrap">
+    <div class="mb-6 flex flex-col md:flex-row md:items-center gap-4 flex-wrap">
       <input type="text" id="searchInput" placeholder="Buscar Jutsu..." class="w-full md:w-1/3 p-2 border rounded" />
 
       <select id="categoriaFilter" class="p-2 border rounded">
@@ -46,11 +43,11 @@
         <option value="A">Rank A</option>
         <option value="S">Rank S</option>
       </select>
-    </div>
 
-    <div class="mb-6 flex items-center space-x-2">
-      <input type="checkbox" id="knownOnlyCheckbox" />
-      <label for="knownOnlyCheckbox" class="select-none cursor-pointer">Mostrar apenas Conhecidos</label>
+      <label class="flex items-center space-x-2">
+        <input type="checkbox" id="apenasConhecidos" />
+        <span>Mostrar apenas conhecidos</span>
+      </label>
     </div>
 
     <div id="jutsuList" class="grid md:grid-cols-2 gap-4"></div>
@@ -89,18 +86,36 @@
       localStorage.setItem("jutsusConhecidos", JSON.stringify(conhecidos));
     }
 
+    function getCorElemento(elemento) {
+      const cores = {
+        "Katon": "text-red-600",
+        "Suiton": "text-blue-600",
+        "Doton": "text-yellow-700",
+        "Raiton": "text-yellow-500",
+        "Fuuton": "text-green-600",
+        "Taijutsu": "text-orange-600",
+        "Genjutsu": "text-purple-600",
+        "Fuuinjutsu": "text-pink-600",
+        "Kenjutsu": "text-gray-800",
+        "Shurikenjutsu": "text-gray-600",
+        "Básico": "text-gray-500",
+        "Ninjutsu Médico": "text-emerald-600"
+      };
+      return cores[elemento] || "text-gray-700";
+    }
+
     function renderJutsus() {
       const search = document.getElementById("searchInput").value.toLowerCase();
       const categoria = document.getElementById("categoriaFilter").value;
       const rank = document.getElementById("rankFilter").value;
-      const knownOnly = document.getElementById("knownOnlyCheckbox").checked;
+      const apenasConhecidos = document.getElementById("apenasConhecidos").checked;
 
       const filtered = jutsus.filter(jutsu => {
         return (
           (!search || jutsu.nome.toLowerCase().includes(search)) &&
           (!categoria || jutsu.elemento === categoria) &&
           (!rank || jutsu.rank === rank) &&
-          (!knownOnly || isConhecido(jutsu.nome))
+          (!apenasConhecidos || isConhecido(jutsu.nome))
         );
       });
 
@@ -108,13 +123,13 @@
       list.innerHTML = filtered.map(j => `
         <div class="card bg-white p-4 shadow-md rounded-xl flex flex-col">
           <div class="flex justify-between items-center mb-2">
-            <h2 class="text-xl font-bold text-red-600">${j.nome}</h2>
+            <h2 class="text-xl font-bold ${getCorElemento(j.elemento)}">${j.nome}</h2>
             <label class="flex items-center space-x-1 cursor-pointer">
               <input type="checkbox" class="conhecido-checkbox" data-nome="${j.nome}" ${isConhecido(j.nome) ? "checked" : ""} />
               <span class="text-sm select-none">Conhecido</span>
             </label>
           </div>
-          <p class="italic text-sm mb-2">Categoria: ${j.elemento || "-"} | Rank: ${j.rank}</p>
+          <p class="italic text-sm mb-2">Categoria: <span class="${getCorElemento(j.elemento)}">${j.elemento || "-"}</span> | Rank: ${j.rank}</p>
           <p class="text-sm">${j.descricao}</p>
           <p class="text-xs mt-2 text-gray-600">Custo: ${j.custo} | Alcance: ${j.alcance} | Ação: ${j.acao_duracao}</p>
         </div>
@@ -124,7 +139,6 @@
         checkbox.addEventListener("change", e => {
           const nome = e.target.dataset.nome;
           toggleConhecido(nome);
-          renderJutsus();
         });
       });
     }
@@ -132,9 +146,10 @@
     document.getElementById("searchInput").addEventListener("input", renderJutsus);
     document.getElementById("categoriaFilter").addEventListener("change", renderJutsus);
     document.getElementById("rankFilter").addEventListener("change", renderJutsus);
-    document.getElementById("knownOnlyCheckbox").addEventListener("change", renderJutsus);
+    document.getElementById("apenasConhecidos").addEventListener("change", renderJutsus);
 
     loadJutsus();
   </script>
 </body>
 </html>
+
