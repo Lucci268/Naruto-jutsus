@@ -111,8 +111,8 @@
   },
   {
     "nome": "Mijingiri",
-    "elemento": ["Kenjutsu"],
-    "elemento_secundario": null,
+    "elemento": "Kenjutsu",
+    "elemento_secundario": "",
     "rank": "C",
     "custo": "2 de chakra",
     "alcance": "Pessoal",
@@ -121,8 +121,8 @@
   },
   {
     "nome": "Yosakugiri",
-    "elemento": ["Kenjutsu"],
-    "elemento_secundario": null,
+    "elemento": "Kenjutsu",
+    "elemento_secundario": "",
     "rank": "C",
     "custo": "2 de chakra",
     "alcance": "Pessoal",
@@ -131,8 +131,8 @@
   },
   {
     "nome": "Iaigiri",
-    "elemento": ["Kenjutsu"],
-    "elemento_secundario": null,
+    "elemento": "Kenjutsu",
+    "elemento_secundario": "",
     "rank": "C",
     "custo": "2 de chakra",
     "alcance": "Pessoal",
@@ -141,8 +141,8 @@
   },
   {
     "nome": "Shinkūken",
-    "elemento": ["Kenjutsu"],
-    "elemento_secundario": null,
+    "elemento": "Kenjutsu",
+    "elemento_secundario": "",
     "rank": "C",
     "custo": "2 de chakra",
     "alcance": "Modificador de Kenjutsu em metros",
@@ -151,8 +151,8 @@
   },
   {
     "nome": "Suishōken",
-    "elemento": ["Kenjutsu"],
-    "elemento_secundario": null,
+    "elemento": "Kenjutsu",
+    "elemento_secundario": "",
     "rank": "B",
     "custo": "4 de chakra",
     "alcance": "3 metros",
@@ -454,7 +454,7 @@
     "elemento": "Genjutsu",
     "elemento_secundario": "Fuuton",
     "rank": "B",
-    "custo": "4 de CHakra",
+    "custo": "4 de Chakra",
     "alcance": "Mod. de Espírito em metros",
     "acao_duracao": "Padrão/Concentrada",
     "descricao": "Cria um campo de areia ao redor dos inimigos, distraindo-os com falsos inimigos miragem, aplicando Desprevenido e Ofuscado. Alvos devem fazer teste de Reflexos contra Vontade para sair da área. Requer Estilo Terra e, se tiver Jiton (Suna), teste com vantagem."
@@ -504,7 +504,7 @@
     "elemento": "Básico",
     "elemento_secundario": null,
     "rank": "D",
-    "custo": "1 por Clone",
+    "custo": "1 de Chakra por clone",
     "alcance": "Pessoal",
     "acao_duracao": "Padrão/Instantânea",
     "descricao": "Cria clones ilusórios para confundir o inimigo. Dá +1 no acerto para cada clone. Máximo igual à metade do Modificador de Espírito. Aprimoramento permite fazer até o Mod. de Espírito sem custo."
@@ -680,15 +680,16 @@
     "descricao": "Liberta o usuário ou aliados de genjutsus(Teste de Vontade contra o Genjutsu do oponente). Pode ser usado com auxílio de outro ninja ou da Bijuu, se houver."
   },
   {
-  "nome": "Kokuangyo no Jutsu",
-  "elemento": "Genjutsu",
-  "elemento_secundario": null,
-  "rank": "S",
-  "custo": "10 de Chakra",
-  "alcance": "Mod. de Espírito em metros ao dobro",
-  "acao_duracao": "Padrão/Concentrada",
-  "descricao": "É uma técnica de Genjutsu definitiva, aplicando esse Genjutsu a todos os inimigos no ambiente, lhes garantindo a condição Cego e Vulnerável por turnos iguais ao Modificador de Espírito do usuário, podendo ser desfeito somente com a derrota do usuário ou incapacitação do mesmo. Qualquer técnica ocular ou que envolva contato visual é inutilizada."
-},
+    "nome": "Kokuangyo no Jutsu",
+    "elemento": "Genjutsu",
+    "elemento_secundario": null,
+    "rank": "S",
+    "custo": "10 de Chakra",
+    "alcance": "Mod. de Espírito em metros ao dobro",
+    "acao_duracao": "Padrão/Concentrada",
+    "descricao": "É uma técnica de Genjutsu definitiva, aplicando esse Genjutsu a todos os inimigos no ambiente, lhes garantindo a condição Cego e Vulnerável por turnos iguais ao Modificador de Espírito do usuário, podendo ser desfeito somente com a derrota do usuário ou incapacitação do mesmo. Qualquer técnica ocular ou que envolva contato visual é inutilizada."
+  }
 ]
+
 
 
