@@ -1,7 +1,8 @@
 [
   {
     "nome": "Katon Katana",
-    "elemento": "Kenjutsu",
+    "elemento": ["Kenjutsu"],
+    "elemento_secundario": ["Katon"],
     "rank": "B",
     "custo": "Sem custo",
     "alcance": "Pessoal",
@@ -10,7 +11,8 @@
   },
   {
     "nome": "Kirigakure Kenjutsu",
-    "elemento": "Kenjutsu",
+    "elemento": ["Kenjutsu"],
+    "elemento_secundario": null,
     "rank": "B",
     "custo": "Sem custo",
     "alcance": "Pessoal",
@@ -19,7 +21,8 @@
   },
   {
     "nome": "Kumoryū Kaengiri",
-    "elemento": "Kenjutsu",
+    "elemento": ["Kenjutsu"],
+    "elemento_secundario": ["Katon"],
     "rank": "A",
     "custo": "6 de chakra",
     "alcance": "5 metros",
@@ -28,7 +31,8 @@
   },
   {
     "nome": "Kumoryū Mizakugiri",
-    "elemento": "Kenjutsu",
+    "elemento": ["Kenjutsu"],
+    "elemento_secundario": null,
     "rank": "A",
     "custo": "6 de chakra",
     "alcance": "Pessoal",
@@ -37,7 +41,8 @@
   },
   {
     "nome": "Kumoryū: Raikōken",
-    "elemento": "Kenjutsu",
+    "elemento": ["Kenjutsu"],
+    "elemento_secundario": ["Raiton"],
     "rank": "B",
     "custo": "4 de chakra",
     "alcance": "Toque",
@@ -46,7 +51,8 @@
   },
   {
     "nome": "Mikazuki no Mai",
-    "elemento": "Kenjutsu",
+    "elemento": ["Kenjutsu"],
+    "elemento_secundario": null,
     "rank": "A",
     "custo": "Clones em campo",
     "alcance": "Pessoal",
@@ -55,7 +61,8 @@
   },
   {
     "nome": "Oborozukiyo",
-    "elemento": "Kenjutsu",
+    "elemento": ["Kenjutsu"],
+    "elemento_secundario": null,
     "rank": "A",
     "custo": "6 de chakra",
     "alcance": "Pessoal",
@@ -64,7 +71,8 @@
   },
   {
     "nome": "Hiken: Tsukikage",
-    "elemento": "Kenjutsu",
+    "elemento": ["Kenjutsu"],
+    "elemento_secundario": null,
     "rank": "A",
     "custo": "6 de chakra",
     "alcance": "Pessoal",
@@ -73,7 +81,8 @@
   },
   {
     "nome": "Akurobatto",
-    "elemento": "Kenjutsu",
+    "elemento": ["Kenjutsu"],
+    "elemento_secundario": ["Taijutsu"],
     "rank": "S",
     "custo": "Sem custo",
     "alcance": "Pessoal",
@@ -82,7 +91,8 @@
   },
   {
     "nome": "Hadan",
-    "elemento": "Kenjutsu",
+    "elemento": ["Kenjutsu"],
+    "elemento_secundario": null,
     "rank": "S",
     "custo": "10 de chakra",
     "alcance": "Pessoal",
@@ -91,7 +101,8 @@
   },
   {
     "nome": "Shunsokuzan",
-    "elemento": "Kenjutsu",
+    "elemento": ["Kenjutsu"],
+    "elemento_secundario": null,
     "rank": "S",
     "custo": "10 de chakra",
     "alcance": "10 metros",
@@ -100,7 +111,8 @@
   },
   {
     "nome": "Mijingiri",
-    "elemento": "Kenjutsu",
+    "elemento": ["Kenjutsu"],
+    "elemento_secundario": null,
     "rank": "C",
     "custo": "2 de chakra",
     "alcance": "Pessoal",
@@ -109,7 +121,8 @@
   },
   {
     "nome": "Yosakugiri",
-    "elemento": "Kenjutsu",
+    "elemento": ["Kenjutsu"],
+    "elemento_secundario": null,
     "rank": "C",
     "custo": "2 de chakra",
     "alcance": "Pessoal",
@@ -118,7 +131,8 @@
   },
   {
     "nome": "Iaigiri",
-    "elemento": "Kenjutsu",
+    "elemento": ["Kenjutsu"],
+    "elemento_secundario": null,
     "rank": "C",
     "custo": "2 de chakra",
     "alcance": "Pessoal",
@@ -127,124 +141,28 @@
   },
   {
     "nome": "Shinkūken",
-    "elemento": "Kenjutsu",
+    "elemento": ["Kenjutsu"],
+    "elemento_secundario": null,
     "rank": "C",
     "custo": "2 de chakra",
     "alcance": "Modificador de Kenjutsu em metros",
     "acao_duracao": "Padrão & Reação/Instantânea",
-    "descricao": "Uma técnica de Kenjutsu, no qual o usuário efetua um forte golpe em arco com a sua arma, gerando uma rajada de vento que aplica o dano da sua arma a distância aumentando em 1 dado de dano. Pode ser usada para combater projéteis e se o usuário tiver o Estilo Vento, terá vantagem no acerto e dano."
+    "descricao": "Uma técnica de Kenjutsu, no qual o usuário efetua um forte golpe em distância com vantagem no ataque, causando dano da arma + Modificador de Kenjutsu. Pode ser usado como reação contra ataques corpo-a-corpo."
   },
   {
-    "nome": "Gōken",
-    "elemento": "Kenjutsu",
-    "rank": "C",
-    "custo": "2 de chakra",
-    "alcance": "Pessoal",
-    "acao_duracao": "Bônus/Sustentada",
-    "descricao": "Uma técnica de Kenjutsu, no qual o usuário reveste sua lâmina com chakra, aumentando o dano da mesma em 1 dado e girando qualquer teste de Força usando sua arma com vantagem."
-  },
-  {
-    "nome": "Hisenken",
-    "elemento": "Kenjutsu",
-    "rank": "C",
-    "custo": "2 de chakra",
-    "alcance": "Pessoal",
-    "acao_duracao": "Padrão/Instantânea",
-    "descricao": "Uma técnica de Kenjutsu, no qual o usuário lança a sua arma em um golpe giratório, sendo que ao acertar um alvo, ficará encravada e poderá servir de apoio para o usuário, ela causa o dano da arma+1d4."
-  },
-  {
-    "nome": "Issen",
-    "elemento": "Kenjutsu",
-    "rank": "C",
-    "custo": "2 de chakra",
-    "alcance": "Modificador de Espírito em metros",
-    "acao_duracao": "Bônus/Instantânea",
-    "descricao": "Uma técnica de Kenjutsu, no qual o usuário efetua um corte no ar revestido de chakra, causando o dano da arma com vantagem no acerto e dano."
-  },
-  {
-    "nome": "Butsugiri",
-    "elemento": "Kenjutsu",
-    "rank": "C",
-    "custo": "2 de chakra",
-    "alcance": "Pessoal",
-    "acao_duracao": "Padrão/Instantânea",
-    "descricao": "Uma técnica de Kenjutsu, no qual o usuário efetua um golpe fatal contra um alvo caído, onde o dano é aumentado igual ao Modificador mais alto do usuário e o alvo receberá o dano garantido, mas pode reduzir pela metade se passar em um teste de Fortitude."
-  },
-  {
-    "nome": "Iaidō",
-    "elemento": "Kenjutsu",
+    "nome": "Suishōken",
+    "elemento": ["Kenjutsu"],
+    "elemento_secundario": null,
     "rank": "B",
     "custo": "4 de chakra",
-    "alcance": "Pessoal",
-    "acao_duracao": "Livre/Instantânea",
-    "descricao": "Um estilo de Kenjutsu onde o usuário foca em golpes suaves, mas precisos de saque, onde pode sacar e atacar no mesmo turno em um ataque que aplica a condição Desprevenido ao inimigo. Para se utilizar desse estilo, é sempre necessário guardar a arma para a sacar no próximo turno, também reduzindo o valor necessário de crítico em +1."
-  },
-  {
-    "nome": "Tsukikage",
-    "elemento": "Kenjutsu",
-    "rank": "C",
-    "custo": "2 de chakra",
-    "alcance": "Pessoal",
+    "alcance": "3 metros",
     "acao_duracao": "Padrão/Instantânea",
-    "descricao": "Uma técnica de Kenjutsu, no qual o usuário ganha um ataque corpo-a-corpo adicional após acertar um ataque usando de sua arma, onde o seu dano desarmado terá um valor adicional igual ao da arma que usa com vantagem no acerto."
-  },
-  {
-    "nome": "Zankō",
-    "elemento": "Kenjutsu",
-    "rank": "B",
-    "custo": "4 de chakra",
-    "alcance": "Pessoal",
-    "acao_duracao": "Padrão/Instantânea",
-    "descricao": "Uma técnica de Kenjutsu, no qual o usuário efetua um corte veloz em alta velocidade, onde caso o inimigo falhe em um teste de Reflexos contra o usuário, receberá o dano máximo da sua arma."
-  },
-  {
-    "nome": "Ansatsu Jutsu",
-    "elemento": "Kenjutsu",
-    "rank": "B",
-    "custo": "4 de chakra",
-    "alcance": "Pessoal",
-    "acao_duracao": "Padrão/Instantânea",
-    "descricao": "Uma técnica de Kenjutsu, no qual o usuário aplica golpes adicionais a um inimigo iguais a metade do Modificador de Destreza, porém com os ataques consequentes tendo dano reduzido pela metade."
-  },
-  {
-    "nome": "Mizuki Zanmai",
-    "elemento": "Kenjutsu",
-    "rank": "B",
-    "custo": "4 de chakra",
-    "alcance": "Pessoal",
-    "acao_duracao": "Padrão/Instantânea",
-    "descricao": "Uma técnica de Kenjutsu, no qual o usuário ganha dados de dano adicionais com sua arma igual a metade do Modificador de Força, caso seja usado contra construtos e objetos mais sólidos, o dano será em dobro e máximo."
-  },
-  {
-    "nome": "Setsuna",
-    "elemento": "Kenjutsu",
-    "rank": "B",
-    "custo": "4 de chakra",
-    "alcance": "Pessoal",
-    "acao_duracao": "Padrão/Instantânea",
-    "descricao": "Uma técnica de Kenjutsu, no qual o usuário efetua um movimento veloz, onde caso um inimigo falhe em um teste de Reflexos contra o usuário, receberá dano adicional igual ao próprio Modificador de Constituição, além da condição de Sangramento."
-  },
-  {
-    "nome": "Kumoryū Kenjutsu",
-    "elemento": "Kenjutsu",
-    "rank": "B",
-    "custo": "Sem custo",
-    "alcance": "Pessoal",
-    "acao_duracao": "Livre/Instantânea",
-    "descricao": "Um estilo de Kenjutsu no qual o usuário combina o Kenjutsu com técnicas de Liberação Elemental, podendo adicionar a Afinidade Elemental do usuário como tipo de dano adicional, além de permanentemente adicionar dano às suas armas igual à metade do Modificador de Espírito. Exclusivo a Ninjas de Kumo."
-  },
-  {
-  "nome": "Konoharyū Kenjutsu",
-  "elemento": "Kenjutsu",
-  "rank": "B",
-  "custo": "-",
-  "alcance": "Pessoal",
-  "acao_duracao": "Livre/Instantânea",
-  "descricao": "Um estilo de Kenjutsu, no qual o usuário combina o Kenjutsu com técnicas de Genjutsu e básicas (Clones, Substituição e semelhantes), onde caso use algum desses tipos de Jutsu em combinação ao Kenjutsu, poderá adicionar o Modificador de Espírito como dano adicional, além de ter um ataque adicional (apenas 1, não acumulativo) caso tenha algum clone ou alvo afetado por genjutsu em campo. Exclusivo a Ninjas de Konoha."
+    "descricao": "Uma técnica de Kenjutsu, no qual o usuário lança uma lâmina de chakra que causa dano igual ao Mod de Kenjutsu + dano da arma, e ainda empurra o alvo 3 metros para trás se o alvo falhar teste de Força contra o Kenjutsu do usuário."
   },
   {
     "nome": "Itami o tomonau iyashi",
     "elemento": "Ninjutsu Médico",
+    "elemento_secundario": null,
     "rank": "D",
     "custo": "1 de Chakra",
     "alcance": "Toque",
@@ -254,6 +172,7 @@
   {
     "nome": "Saibō no Kasseijutsu",
     "elemento": "Ninjutsu Médico",
+    "elemento_secundario": null,
     "rank": "C",
     "custo": "2 de Chakra",
     "alcance": "Toque",
@@ -263,6 +182,7 @@
   {
     "nome": "Sakkyoku gihō (Preparação)",
     "elemento": "Ninjutsu Médico",
+    "elemento_secundario": null,
     "rank": "C",
     "custo": "2 de Chakra",
     "alcance": "Toque",
@@ -272,6 +192,7 @@
   {
     "nome": "Sakkyoku gihō (Diagnóstico)",
     "elemento": "Ninjutsu Médico",
+    "elemento_secundario": null,
     "rank": "C",
     "custo": "2 de Chakra",
     "alcance": "Toque",
@@ -281,6 +202,7 @@
   {
     "nome": "Gedokujutsu",
     "elemento": "Ninjutsu Médico",
+    "elemento_secundario": null,
     "rank": "C",
     "custo": "2 de Chakra",
     "alcance": "Toque",
@@ -290,6 +212,7 @@
   {
     "nome": "Ranshinshō",
     "elemento": "Ninjutsu Médico",
+    "elemento_secundario": null,
     "rank": "B",
     "custo": "4 de Chakra",
     "alcance": "Toque",
@@ -299,6 +222,7 @@
   {
     "nome": "Chakura Mesu",
     "elemento": "Ninjutsu Médico",
+    "elemento_secundario": null,
     "rank": "B",
     "custo": "4 de Chakra",
     "alcance": "Toque",
@@ -308,6 +232,7 @@
   {
     "nome": "Shiketsu Jutsu",
     "elemento": "Ninjutsu Médico",
+    "elemento_secundario": null,
     "rank": "B",
     "custo": "4 de Chakra",
     "alcance": "Toque",
@@ -317,8 +242,9 @@
   {
     "nome": "Shōsen Jutsu",
     "elemento": "Ninjutsu Médico",
+    "elemento_secundario": null,
     "rank": "A",
-    "custo": "8 de Chakra",
+    "custo": "6 de Chakra",
     "alcance": "Toque",
     "acao_duracao": "Padrão/Concentrada",
     "descricao": "Cura HP do alvo igual ao dobro do Modificador de Espírito + d8."
@@ -326,15 +252,17 @@
   {
     "nome": "Chakura Kaibōtō: Zan",
     "elemento": "Ninjutsu Médico",
+    "elemento_secundario": null,
     "rank": "A",
     "custo": "6 de Chakra",
     "alcance": "Toque",
     "acao_duracao": "Padrão/Instantânea",
-    "descricao": "Potencializa o próximo ataque com Chakura Mesu, agora causa dano desarmado+ Metade do Mod.de Medicina, ainda com crítico reduzido em +1 ."
+    "descricao": "Potencializa o próximo ataque com Chakura Mesu, agora causa dano desarmado+ Metade do Mod.de Medicina, ainda com crítico reduzido em +1."
   },
   {
     "nome": "Saikan Chūshutsu no Jutsu",
     "elemento": "Ninjutsu Médico",
+    "elemento_secundario": null,
     "rank": "B",
     "custo": "4 de Chakra",
     "alcance": "Toque",
@@ -344,6 +272,7 @@
   {
     "nome": "In'yu Shōmetsu",
     "elemento": "Ninjutsu Médico",
+    "elemento_secundario": null,
     "rank": "A",
     "custo": "6 de Chakra",
     "alcance": "Pessoal",
@@ -353,6 +282,7 @@
   {
     "nome": "Chakura Mesu: San",
     "elemento": "Ninjutsu Médico",
+    "elemento_secundario": null,
     "rank": "S",
     "custo": "10 de Chakra",
     "alcance": "Pessoal",
@@ -362,6 +292,7 @@
   {
     "nome": "Shikon no Jutsu",
     "elemento": "Ninjutsu Médico",
+    "elemento_secundario": null,
     "rank": "S",
     "custo": "10 de Chakra",
     "alcance": "14 metros",
@@ -371,6 +302,7 @@
   {
     "nome": "Chikatsu Saisei no Jutsu",
     "elemento": "Ninjutsu Médico",
+    "elemento_secundario": "Fuuinjutsu",
     "rank": "A",
     "custo": "6 de Chakra",
     "alcance": "4 metros/Toque",
@@ -380,6 +312,7 @@
   {
     "nome": "Sōzō Saisei",
     "elemento": "Ninjutsu Médico",
+    "elemento_secundario": "Fuuinjutsu",
     "rank": "S",
     "custo": "10 de Chakra",
     "alcance": "Pessoal",
@@ -389,15 +322,18 @@
   {
     "nome": "Ninpou Sōzō Saisei — Byakugō no Jutsu",
     "elemento": "Ninjutsu Médico",
+    "elemento_secundario": "Fuuinjutsu",
     "rank": "S",
     "custo": "10 de Chakra",
     "alcance": "Pessoal",
     "acao_duracao": "Livre/Sustentada",
     "descricao": "Enquanto ativa, cura automaticamente qualquer dano no fim do turno e impede o HP de chegar a 0. Cada turno ativo consome 2 anos de vida. Exige Selo de Cem Forças."
   },
+ [
   {
     "nome": "Hana Ninpou: Kyōkasui",
     "elemento": "Genjutsu",
+    "elemento_secundario": null,
     "rank": "C",
     "custo": "2 de Chakra",
     "alcance": "Mod. de Espírito em metros",
@@ -407,6 +343,7 @@
   {
     "nome": "Magen: Narakumi no Jutsu",
     "elemento": "Genjutsu",
+    "elemento_secundario": null,
     "rank": "C",
     "custo": "2 de Chakra",
     "alcance": "Mod. de Espírito em metros",
@@ -416,6 +353,7 @@
   {
     "nome": "Genjutsu Shibari",
     "elemento": "Genjutsu",
+    "elemento_secundario": null,
     "rank": "B",
     "custo": "4 de Chakra",
     "alcance": "Mod. de Espírito em metros",
@@ -425,6 +363,7 @@
   {
     "nome": "Genjutsu: Mame no ki tōgoku",
     "elemento": "Genjutsu",
+    "elemento_secundario": null,
     "rank": "C",
     "custo": "2 de Chakra",
     "alcance": "Mod. de Espírito em metros",
@@ -434,6 +373,7 @@
   {
     "nome": "Genjutsu: Nejire",
     "elemento": "Genjutsu",
+    "elemento_secundario": null,
     "rank": "C",
     "custo": "2 de Chakra",
     "alcance": "Variável",
@@ -443,6 +383,7 @@
   {
     "nome": "Genjutsu: Utakata",
     "elemento": "Genjutsu",
+    "elemento_secundario": null,
     "rank": "C",
     "custo": "2 de Chakra",
     "alcance": "Mod. de Espírito em metros",
@@ -452,6 +393,7 @@
   {
     "nome": "Genjutsu: Kagamigaeshi",
     "elemento": "Genjutsu",
+    "elemento_secundario": null,
     "rank": "B",
     "custo": "Igual ao da técnica do inimigo",
     "alcance": "Mod. de Espírito em metros",
@@ -461,6 +403,7 @@
   {
     "nome": "Raiton: Raigen Raikōchū",
     "elemento": "Genjutsu",
+    "elemento_secundario": "Raiton",
     "rank": "B",
     "custo": "4 de Chakra",
     "alcance": "Mod. de Espírito (dobro) em metros",
@@ -470,6 +413,7 @@
   {
     "nome": "Magen: Shinkarasu",
     "elemento": "Genjutsu",
+    "elemento_secundario": null,
     "rank": "B",
     "custo": "4 de Chakra",
     "alcance": "Mod. de Espírito em metros",
@@ -479,6 +423,7 @@
   {
     "nome": "Hyakkaryōran",
     "elemento": "Genjutsu",
+    "elemento_secundario": null,
     "rank": "B",
     "custo": "4 de Chakra",
     "alcance": "Mod. de Espírito em metros",
@@ -488,6 +433,7 @@
   {
     "nome": "Jishaku Ninpou: Denji Genmu",
     "elemento": "Genjutsu",
+    "elemento_secundario": "Doton",
     "rank": "B",
     "custo": "4 de Chakra",
     "alcance": "Mod. de Espírito em metros",
@@ -497,6 +443,7 @@
   {
     "nome": "Genjutsu no Hanabira ",
     "elemento": "Genjutsu",
+    "elemento_secundario": "Básico",
     "rank": "B",
     "custo": "4 de Chakra",
     "alcance": "Pessoal",
@@ -506,6 +453,7 @@
   {
     "nome": "Fuuton: Sajin Senpuu",
     "elemento": "Genjutsu",
+    "elemento_secundario": "Fuuton",
     "rank": "B",
     "custo": "4 de CHakra",
     "alcance": "Mod. de Espírito em metros",
@@ -515,6 +463,7 @@
   {
     "nome": "Kane no Oto",
     "elemento": "Genjutsu",
+    "elemento_secundario": "Shurikenjutsu",
     "rank": "B",
     "custo": "4 de Chakra",
     "alcance": "Mod. de Espírito em metros",
@@ -524,6 +473,7 @@
   {
     "nome": "Magen: Jubakusatsu",
     "elemento": "Genjutsu",
+    "elemento_secundario": null,
     "rank": "A",
     "custo": "6 de Chakra",
     "alcance": "Mod. de Espírito em metros",
@@ -531,26 +481,9 @@
     "descricao": "Força um alvo no mesmo ambiente a ficar preso em um Genjutsu de uma grande árvore que o imobiliza, com teste de Vontade (CD Técnica+5). Alvo fica Indefeso e Vulnerável, recebe dano com vantagem e dá golpe de oportunidade."
   },
   {
-    "nome": "Shitsumon suru",
-    "elemento": "Genjutsu",
-    "rank": "A",
-    "custo": "6 de Chakra",
-    "alcance": "Toque",
-    "acao_duracao": "Padrão/Concentrada",
-    "descricao": "Permite invadir a mente de inimigo indefeso/imobilizado ou preso em genjutsu, forçando-o a falar a verdade, seguir comandos básicos e obter informações. Alvo pode sair se libertando dp Genjutsu que tiver recebido anteriormente."
-  },
-  {
-    "nome": "Kokuangyo no Jutsu",
-    "elemento": "Genjutsu",
-    "rank": "S",
-    "custo": "10 de Chakra",
-    "alcance": "Mod. de Espírito em metros ao dobro",
-    "acao_duracao": "Padrão/Concentrada",
-    "descricao": "Genjutsu Definitivo que aplica condição Cego e Vulnerável a todos inimigos no ambiente por turnos iguais ao Mod. de Espírito do usuário. Pode ser desfeito só com derrota ou incapacitação do usuário. Técnicas oculares ou contato visual são inutilizadas."
-  },
-  {
     "nome": "Kabe Hashiri no Jutsu",
     "elemento": "Básico",
+    "elemento_secundario": null,
     "rank": "E",
     "custo": "Sem Custo",
     "alcance": "Pessoal",
@@ -560,6 +493,7 @@
   {
     "nome": "Henge no Jutsu",
     "elemento": "Básico",
+    "elemento_secundario": null,
     "rank": "D",
     "custo": "1 de Chakra",
     "alcance": "Pessoal",
@@ -569,6 +503,7 @@
   {
     "nome": "Bunshin no Jutsu",
     "elemento": "Básico",
+    "elemento_secundario": null,
     "rank": "D",
     "custo": "1 por Clone",
     "alcance": "Pessoal",
@@ -578,6 +513,7 @@
   {
     "nome": "Shunshin no Jutsu",
     "elemento": "Básico",
+    "elemento_secundario": null,
     "rank": "D",
     "custo": "1 de Chakra",
     "alcance": "Pessoal",
@@ -587,6 +523,7 @@
   {
     "nome": "Kawarimi no Jutsu",
     "elemento": "Básico",
+    "elemento_secundario": null,
     "rank": "D",
     "custo": "1 de Chakra",
     "alcance": "Pessoal",
@@ -596,6 +533,7 @@
   {
     "nome": "Maruta Otoshi",
     "elemento": "Básico",
+    "elemento_secundario": "Shurikenjutsu",
     "rank": "E",
     "custo": "Sem Custo",
     "alcance": "Variável",
@@ -605,6 +543,7 @@
   {
     "nome": "Chakura no Ito",
     "elemento": "Básico",
+    "elemento_secundario": null,
     "rank": "C",
     "custo": "2 de Chakra",
     "alcance": "Mod. de Espírito em metros",
@@ -614,6 +553,7 @@
   {
     "nome": "Fukumi Hari",
     "elemento": "Básico",
+    "elemento_secundario": "Shurikenjutsu",
     "rank": "D",
     "custo": "1 de Chakra",
     "alcance": "5 metros",
@@ -623,6 +563,7 @@
   {
     "nome": "Sennen Goroshi",
     "elemento": "Básico",
+    "elemento_secundario": "Taijutsu",
     "rank": "E",
     "custo": "Sem Custo",
     "alcance": "Toque",
@@ -632,6 +573,7 @@
   {
     "nome": "Shuriken Kage Bunshin no Jutsu",
     "elemento": "Básico",
+    "elemento_secundario": "Shurikenjutsu",
     "rank": "C",
     "custo": "2 de Chakra",
     "alcance": "Pessoal",
@@ -641,6 +583,7 @@
   {
     "nome": "Kuchiyose no Jutsu",
     "elemento": "Básico",
+    "elemento_secundario": "Fuuinjutsu",
     "rank": "C",
     "custo": "Variável",
     "alcance": "Pessoal",
@@ -650,6 +593,7 @@
   {
     "nome": "Kage Bunshin no Jutsu",
     "elemento": "Básico",
+    "elemento_secundario": null,
     "rank": "B",
     "custo": "4 de Chakra por clone",
     "alcance": "Pessoal",
@@ -659,6 +603,7 @@
   {
     "nome": "Dokugiri",
     "elemento": "Básico",
+    "elemento_secundario": "Shurikenjutsu",
     "rank": "B",
     "custo": "4 de Chakra",
     "alcance": "7 metros + Mod. Espírito",
@@ -668,6 +613,7 @@
   {
     "nome": "Sōshūha",
     "elemento": "Básico",
+    "elemento_secundario": "Shurikenjutsu",
     "rank": "B",
     "custo": "4 de Chakra",
     "alcance": "20 metros",
@@ -677,6 +623,7 @@
   {
     "nome": "Tōmegane no Jutsu",
     "elemento": "Básico",
+    "elemento_secundario": "Fuuinjutsu",
     "rank": "A",
     "custo": "6 de Chakra",
     "alcance": "Indeterminado",
@@ -686,6 +633,7 @@
   {
     "nome": "Katon: Kibaku Enjin",
     "elemento": "Básico",
+    "elemento_secundario": "Katon",
     "rank": "S",
     "custo": "10 de Chakra",
     "alcance": "Variável",
@@ -695,6 +643,7 @@
   {
     "nome": "Hari Jizō",
     "elemento": "Básico",
+    "elemento_secundario": "Shurikenjutsu",
     "rank": "B",
     "custo": "4 de Chakra",
     "alcance": "Pessoal/6 metros",
@@ -704,6 +653,7 @@
   {
     "nome": "Dōka",
     "elemento": "Básico",
+    "elemento_secundario": null,
     "rank": "B",
     "custo": "4 de Chakra",
     "alcance": "Pessoal",
@@ -713,6 +663,7 @@
   {
     "nome": "Kagura Shingan",
     "elemento": "Básico",
+    "elemento_secundario": null,
     "rank": "C",
     "custo": "2 de Chakra",
     "alcance": "Percepção Passiva em metros",
@@ -722,12 +673,23 @@
   {
     "nome": "Genjutsu Kai",
     "elemento": "Básico",
+    "elemento_secundario": null,
     "rank": "C",
     "custo": "Igual ao do Genjutsu aplicado",
     "alcance": "Pessoal/Toque",
     "acao_duracao": "Padrão/Instantânea",
     "descricao": "Liberta o usuário ou aliados de genjutsus(Teste de Vontade contra o Genjutsu do oponente). Pode ser usado com auxílio de outro ninja ou da Bijuu, se houver."
-  }
+  },
+  {
+  "nome": "Kokuangyo no Jutsu",
+  "elemento": "Genjutsu",
+  "elemento_secundario": null,
+  "rank": "S",
+  "custo": "10 de Chakra",
+  "alcance": "Mod. de Espírito em metros ao dobro",
+  "acao_duracao": "Padrão/Concentrada",
+  "descricao": "É uma técnica de Genjutsu definitiva, aplicando esse Genjutsu a todos os inimigos no ambiente, lhes garantindo a condição Cego e Vulnerável por turnos iguais ao Modificador de Espírito do usuário, podendo ser desfeito somente com a derrota do usuário ou incapacitação do mesmo. Qualquer técnica ocular ou que envolva contato visual é inutilizada."
+},
 ]
 
 
