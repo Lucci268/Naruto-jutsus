@@ -61,6 +61,10 @@
         <input type="checkbox" id="apenasConhecidos" />
         <span>Mostrar apenas conhecidos</span>
       </label>
+
+      <button id="limparFiltros" class="p-2 bg-gray-300 dark:bg-gray-700 rounded hover:bg-gray-400 dark:hover:bg-gray-600 text-gray-800 dark:text-gray-100">
+        Limpar filtros
+      </button>
     </div>
 
     <button id="exportarConhecidos" class="mb-4 p-2 bg-blue-600 text-white rounded hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600">
@@ -82,8 +86,13 @@
       const data = await res.json();
 
       data.forEach(j => {
-        j.elemento = Array.isArray(j.elemento) ? j.elemento[0] : (j.elemento || "-");
-        j.elemento_secundario = j.elemento_secundario || "";
+        if (Array.isArray(j.elemento)) {
+          // deixa como array mesmo
+          j.elemento = j.elemento.map(e => e || "-");
+        } else {
+          j.elemento = [j.elemento || "-"];
+        }
+        j.elemento_secundario = j.elemento_secundario ? (Array.isArray(j.elemento_secundario) ? j.elemento_secundario : [j.elemento_secundario]) : [];
         j.rank = j.rank || "-";
         j.custo = j.custo || "-";
         j.alcance = j.alcance || "-";
@@ -132,6 +141,15 @@
       return cores[elemento] || "text-gray-700";
     }
 
+    // Função para debounce (espera delay ms após última chamada antes de executar)
+    function debounce(func, delay) {
+      let timeout;
+      return function(...args) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(this, args), delay);
+      }
+    }
+
     function renderJutsus() {
       const search = document.getElementById("searchInput").value.toLowerCase();
       const categoria = document.getElementById("categoriaFilter").value;
@@ -139,29 +157,49 @@
       const apenasConhecidos = document.getElementById("apenasConhecidos").checked;
 
       const filtered = jutsus.filter(jutsu => {
-        return (
-          (!search || jutsu.nome.toLowerCase().includes(search)) &&
-          (!categoria || jutsu.elemento === categoria) &&
-          (!rank || jutsu.rank === rank) &&
-          (!apenasConhecidos || isConhecido(jutsu.nome))
-        );
+        const nomeLower = jutsu.nome.toLowerCase();
+
+        // Checa busca texto
+        if (search && !nomeLower.includes(search)) return false;
+
+        // Checa categoria: jutsu.elemento ou jutsu.elemento_secundario contem o filtro
+        if (categoria) {
+          const elementos = [...jutsu.elemento, ...jutsu.elemento_secundario];
+          if (!elementos.includes(categoria)) return false;
+        }
+
+        // Checa rank
+        if (rank && jutsu.rank !== rank) return false;
+
+        // Checa conhecidos
+        if (apenasConhecidos && !isConhecido(jutsu.nome)) return false;
+
+        return true;
       });
 
       const list = document.getElementById("jutsuList");
-      list.innerHTML = filtered.map(j => `
-        <div class="card bg-white p-4 shadow-md rounded-xl flex flex-col dark:bg-gray-800">
-          <div class="flex justify-between items-center mb-2">
-            <h2 class="text-xl font-bold ${getCorElemento(j.elemento)}">${j.nome}</h2>
-            <label class="flex items-center space-x-1 cursor-pointer">
-              <input type="checkbox" class="conhecido-checkbox" data-nome="${j.nome}" ${isConhecido(j.nome) ? "checked" : ""} />
-              <span class="text-sm select-none">Conhecido</span>
-            </label>
+      list.innerHTML = filtered.map(j => {
+        // Mostrar elementos principais e secundários separados por vírgula
+        const elementosTexto = [...j.elemento, ...j.elemento_secundario].filter((v, i, a) => a.indexOf(v) === i).join(", ");
+
+        // Pegando cor do primeiro elemento principal para título e cor dos elementos (se tiver secundários, pode usar mesma cor, fica ok)
+        const corTitulo = getCorElemento(j.elemento[0]);
+
+        return `
+          <div class="card bg-white p-4 shadow-md rounded-xl flex flex-col dark:bg-gray-800">
+            <div class="flex justify-between items-center mb-2">
+              <h2 class="text-xl font-bold ${corTitulo}">${j.nome}</h2>
+              <label class="flex items-center space-x-1 cursor-pointer">
+                <input type="checkbox" class="conhecido-checkbox" data-nome="${j.nome}" ${isConhecido(j.nome) ? "checked" : ""} />
+                <span class="text-sm select-none">Conhecido</span>
+              </label>
+            </div>
+            <p class="italic text-sm mb-2">Categoria: <span class="${corTitulo}">${elementosTexto}</span> | Rank: ${j.rank}</p>
+            <p class="text-sm">${j.descricao}</p>
+            <p class="text-xs mt-2 text-gray-600 dark:text-gray-300">Custo: ${j.custo} | Alcance: ${j.alcance} | Ação: ${j.acao_duracao}</p>
           </div>
-          <p class="italic text-sm mb-2">Categoria: <span class="${getCorElemento(j.elemento)}">${j.elemento}</span> | Rank: ${j.rank}</p>
-          <p class="text-sm">${j.descricao}</p>
-          <p class="text-xs mt-2 text-gray-600 dark:text-gray-300">Custo: ${j.custo} | Alcance: ${j.alcance} | Ação: ${j.acao_duracao}</p>
-        </div>
-      `).join("");
+        `;
+      }).join("");
 
       document.querySelectorAll(".conhecido-checkbox").forEach(checkbox => {
         checkbox.addEventListener("change", e => {
@@ -171,19 +209,43 @@
       });
     }
 
-    document.getElementById("searchInput").addEventListener("input", renderJutsus);
+    // Atualiza texto botão modo escuro
+    function atualizarTextoModoEscuro() {
+      const btn = document.getElementById("toggleDarkMode");
+      if (document.body.classList.contains("dark")) {
+        btn.textContent = "Alternar modo claro";
+      } else {
+        btn.textContent = "Alternar modo escuro";
+      }
+    }
+
+    // Limpar filtros
+    function limparFiltros() {
+      document.getElementById("searchInput").value = "";
+      document.getElementById("categoriaFilter").value = "";
+      document.getElementById("rankFilter").value = "";
+      document.getElementById("apenasConhecidos").checked = false;
+      renderJutsus();
+    }
+
+    // Setup eventos com debounce na busca
+    document.getElementById("searchInput").addEventListener("input", debounce(renderJutsus, 250));
     document.getElementById("categoriaFilter").addEventListener("change", renderJutsus);
     document.getElementById("rankFilter").addEventListener("change", renderJutsus);
     document.getElementById("apenasConhecidos").addEventListener("change", renderJutsus);
 
-    // Modo escuro: aplica tema salvo
+    document.getElementById("limparFiltros").addEventListener("click", limparFiltros);
+
+    // Modo escuro: aplica tema salvo e atualiza texto
     if (localStorage.getItem("darkMode") === "true") {
       document.body.classList.add("dark");
     }
+    atualizarTextoModoEscuro();
 
     document.getElementById("toggleDarkMode").addEventListener("click", () => {
       const isDark = document.body.classList.toggle("dark");
       localStorage.setItem("darkMode", isDark);
+      atualizarTextoModoEscuro();
     });
 
     // Exportar conhecidos
@@ -206,5 +268,6 @@
   </script>
 </body>
 </html>
+
 
 
