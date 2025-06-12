@@ -516,7 +516,7 @@
     "nome": "Kane no Oto",
     "elemento": "Genjutsu",
     "rank": "B",
-    "custo": 4,
+    "custo": "4 de Chakra",
     "alcance": "Mod. de Espírito em metros",
     "acao_duracao": "Bônus/Sustentada",
     "descricao": "Usa sinos que liberam Genjutsu no som, aplicando 2 condições mentais leves à escolha para quem falhar em teste de Percepção com desvantagem. O Genjutsu dura enquanto o usuário gastar chakra e tocar os sinos."
@@ -547,6 +547,187 @@
     "alcance": "Mod. de Espírito em metros ao dobro",
     "acao_duracao": "Padrão/Concentrada",
     "descricao": "Genjutsu Definitivo que aplica condição Cego e Vulnerável a todos inimigos no ambiente por turnos iguais ao Mod. de Espírito do usuário. Pode ser desfeito só com derrota ou incapacitação do usuário. Técnicas oculares ou contato visual são inutilizadas."
+  },
+  {
+    "nome": "Kabe Hashiri no Jutsu",
+    "elemento": "Básico",
+    "rank": "E",
+    "custo": "Sem Custo",
+    "alcance": "Pessoal",
+    "acao_duracao": "Livre/Instantânea",
+    "descricao": "Permite andar sobre superfícies como paredes, teto e água se o usuário tiver ao menos 5 de Chakra. Pode aumentar em 2 o deslocamento gastando 1 de Chakra por turno."
+  },
+  {
+    "nome": "Henge no Jutsu",
+    "elemento": "Básico",
+    "rank": "D",
+    "custo": "1 de Chakra",
+    "alcance": "Pessoal",
+    "acao_duracao": "Livre/Sustentada",
+    "descricao": "Transforma o usuário em outra pessoa ou objeto. Ganha vantagem em Enganação, Atuação e Diplomacia. Com aprimoramento, pode usar sem custo até ter 5 ou menos de Chakra, com +2 em interações sociais."
+  },
+  {
+    "nome": "Bunshin no Jutsu",
+    "elemento": "Básico",
+    "rank": "D",
+    "custo": "1 por Clone",
+    "alcance": "Pessoal",
+    "acao_duracao": "Padrão/Instantânea",
+    "descricao": "Cria clones ilusórios para confundir o inimigo. Dá +1 no acerto para cada clone. Máximo igual à metade do Modificador de Espírito. Aprimoramento permite fazer até o Mod. de Espírito sem custo."
+  },
+  {
+    "nome": "Shunshin no Jutsu",
+    "elemento": "Básico",
+    "rank": "D",
+    "custo": "1 de Chakra",
+    "alcance": "Pessoal",
+    "acao_duracao": "Livre/Instantânea",
+    "descricao": "Aumenta o deslocamento em 4 e pode deixar inimigos desprevenidos se falharem em Reflexos (CD 15). Aprimoramento usa elemento no deslocamento e CD se torna Técnica +2."
+  },
+  {
+    "nome": "Kawarimi no Jutsu",
+    "elemento": "Básico",
+    "rank": "D",
+    "custo": "1 de Chakra",
+    "alcance": "Pessoal",
+    "acao_duracao": "Reação/Instantânea",
+    "descricao": "Troca de lugar com um objeto ao passar em um teste (Reflexos/Percepção). Usos por combate = metade da proficiência. Aprimoramento: testes com vantagem e limite igual ao maior modificador."
+  },
+  {
+    "nome": "Maruta Otoshi",
+    "elemento": "Básico",
+    "rank": "E",
+    "custo": "Sem Custo",
+    "alcance": "Variável",
+    "acao_duracao": "Padrão/Concentrada",
+    "descricao": "Cria armadilhas com itens e cenário. CD = Modificador de Tecnologia +1 por artifício usado."
+  },
+  {
+    "nome": "Chakura no Ito",
+    "elemento": "Básico",
+    "rank": "C",
+    "custo": "2 de Chakra",
+    "alcance": "Mod. de Espírito em metros",
+    "acao_duracao": "Livre/Sustentada",
+    "descricao": "Cria fios de chakra invisíveis. Usado com marionetes, armadilhas e manipulação. Pode ajudar aliados como reação, somando metade do Mod. de Espírito aos testes."
+  },
+  {
+    "nome": "Fukumi Hari",
+    "elemento": "Básico",
+    "rank": "D",
+    "custo": "1 de Chakra",
+    "alcance": "5 metros",
+    "acao_duracao": "Livre/Instantânea",
+    "descricao": "Dispara senbons da boca revestidos de chakra. Dano dobrado e usa o Mod. de Espírito como acerto."
+  },
+  {
+    "nome": "Sennen Goroshi",
+    "elemento": "Básico",
+    "rank": "E",
+    "custo": "Sem Custo",
+    "alcance": "Toque",
+    "acao_duracao": "Padrão/Instantânea",
+    "descricao": "Ataque constrangedor que aplica dano e as condições Frustrado e Abalado se for furtivo ou oportunidade."
+  },
+  {
+    "nome": "Shuriken Kage Bunshin no Jutsu",
+    "elemento": "Básico",
+    "rank": "C",
+    "custo": "2 de Chakra",
+    "alcance": "Pessoal",
+    "acao_duracao": "Bônus/Instantânea",
+    "descricao": "Clona projéteis lançados, reduz CA inimiga em 1 e aplica dano com vantagem."
+  },
+  {
+    "nome": "Kuchiyose no Jutsu",
+    "elemento": "Básico",
+    "rank": "C",
+    "custo": "Variável",
+    "alcance": "Pessoal",
+    "acao_duracao": "Padrão/Instantânea",
+    "descricao": "Invoca criaturas ou objetos de outro local. Custo depende do tamanho e poder do que é invocado."
+  },
+  {
+    "nome": "Kage Bunshin no Jutsu",
+    "elemento": "Básico",
+    "rank": "B",
+    "custo": "4 de Chakra por clone",
+    "alcance": "Pessoal",
+    "acao_duracao": "Bônus/Instantânea",
+    "descricao": "Cria clones reais com ¼ do HP, -2 atributos físicos e metade da CA. Máximo de 2 por combate, podem usar jutsus até Rank B."
+  },
+  {
+    "nome": "Dokugiri",
+    "elemento": "Básico",
+    "rank": "B",
+    "custo": "4 de Chakra",
+    "alcance": "7 metros + Mod. Espírito",
+    "acao_duracao": "Padrão/Instantânea",
+    "descricao": "Expele uma nuvem venenosa que ofusca e aplica os efeitos dos venenos nela contidos."
+  },
+  {
+    "nome": "Sōshūha",
+    "elemento": "Básico",
+    "rank": "B",
+    "custo": "4 de Chakra",
+    "alcance": "20 metros",
+    "acao_duracao": "Padrão/Instantânea",
+    "descricao": "Manipula kunais com fios de chakra. Ganha vantagem e Mod. Espírito como acerto. Pode aplicar desvantagem contínua ao inimigo ao manter o efeito."
+  },
+  {
+    "nome": "Tōmegane no Jutsu",
+    "elemento": "Básico",
+    "rank": "A",
+    "custo": "6 de Chakra",
+    "alcance": "Indeterminado",
+    "acao_duracao": "Padrão/Concentrada",
+    "descricao": "Permite observar pessoas conhecidas ou locais marcados. Requer nome, rosto e item/DNA da pessoa."
+  },
+  {
+    "nome": "Katon: Kibaku Enjin",
+    "elemento": "Básico",
+    "rank": "S",
+    "custo": "10 de Chakra",
+    "alcance": "Variável",
+    "acao_duracao": "Bônus & Reação/Instantânea",
+    "descricao": "Ativa papéis bomba no inimigo com dano máximo usando fogo. Alvo deve passar em Reflexo (CD Técnica +2), senão explode automaticamente se estiver desprevenido."
+  },
+  {
+    "nome": "Hari Jizō",
+    "elemento": "Básico",
+    "rank": "B",
+    "custo": "4 de Chakra",
+    "alcance": "Pessoal/6 metros",
+    "acao_duracao": "Bônus & Reação/Instantânea",
+    "descricao": "Manipula cabelo com chakra para atacar ou se defender. Pode lançar agulhas (1d2) ou aumentar a CA em +2 e reduzir dano com Mod. Espírito."
+  },
+  {
+    "nome": "Dōka",
+    "elemento": "Básico",
+    "rank": "B",
+    "custo": "4 de Chakra",
+    "alcance": "Pessoal",
+    "acao_duracao": "Bônus/Sustentada",
+    "descricao": "Funde o usuário ao ambiente, ganhando Camuflagem em % igual ao Mod. Espírito x10. Só técnicas ninja o detectam."
+  },
+  {
+    "nome": "Kagura Shingan",
+    "elemento": "Básico",
+    "rank": "C",
+    "custo": "2 de Chakra",
+    "alcance": "Percepção Passiva em metros",
+    "acao_duracao": "Padrão/Concentrada",
+    "descricao": "Detecta chakras à distância. Pode ser usado para detectar mentiras com Vontade (CD = Percepção Passiva do usuário)."
+  },
+  {
+    "nome": "Genjutsu Kai",
+    "elemento": "Básico",
+    "rank": "C",
+    "custo": "Igual ao do Genjutsu aplicado",
+    "alcance": "Pessoal/Toque",
+    "acao_duracao": "Padrão/Instantânea",
+    "descricao": "Liberta o usuário ou aliados de genjutsus(Teste de Vontade contra o Genjutsu do oponente). Pode ser usado com auxílio de outro ninja ou da Bijuu, se houver."
   }
 ]
+
 
