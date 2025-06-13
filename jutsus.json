@@ -688,7 +688,247 @@
     "alcance": "Mod. de Espírito em metros ao dobro",
     "acao_duracao": "Padrão/Concentrada",
     "descricao": "É uma técnica de Genjutsu definitiva, aplicando esse Genjutsu a todos os inimigos no ambiente, lhes garantindo a condição Cego e Vulnerável por turnos iguais ao Modificador de Espírito do usuário, podendo ser desfeito somente com a derrota do usuário ou incapacitação do mesmo. Qualquer técnica ocular ou que envolva contato visual é inutilizada."
-  }
+  },
+  {
+  "nome": "Fūnyū no Jutsu",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "D",
+  "custo": "1 de Chakra",
+  "alcance": "Toque",
+  "acao_duracao": "Padrão/Instantânea",
+  "descricao": "É uma técnica de Fuuinjutsu para conter e selar algo em um pergaminho, sendo um selamento básico, mas versátil e útil, onde pode também ser feito na forma de tatuagem e tamanhos diferentes, podendo desde conter equipamentos ninjas, até coisas da natureza como água, fogo, vento e semelhantes. Pode guardar algo menos seres vivos."
+},
+{
+  "nome": "Kaifū no Jutsu",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "D",
+  "custo": "1 de Chakra",
+  "alcance": "Toque",
+  "acao_duracao": "Bônus/Instantânea",
+  "descricao": "É uma técnica de Fuuinjutsu para liberar algo que esteja selado em um recipiente, sendo a contraparte do Fūnyū no Jutsu, podendo liberar e conjurar objetos e coisas contidas em tais selamentos, funcionando somente para selamentos que você mesmo fez ou caso tenha 5 níveis acima da pessoa que deseja desfazer o selo de Rank C."
+},
+{
+  "nome": "Fuuinjutsu: Kai",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "C",
+  "custo": "2 de Chakra",
+  "alcance": "Curto",
+  "acao_duracao": "Bônus/Instantânea",
+  "descricao": "É uma técnica de Fuuinjutsu para liberar selamentos feitos através de amuletos e semelhantes, também servindo como forma para se libertar de selamentos impostos por objetos e meios não diretos ao seu corpo, girando um teste de Fuuinjutsu (CD 25 - Modificador de Espírito) para romper o selamento."
+},
+{
+  "nome": "Fuuinjutsu Turappo",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "C",
+  "custo": "2 de Chakra",
+  "alcance": "Variável",
+  "acao_duracao": "Bônus/Instantânea",
+  "descricao": "É uma técnica de Fuuinjutsu feita em combinação com uma armadilha, onde caso o alvo pise na armadilha e falhe em um teste de Reflexos (CD Técnica), receberá uma condição física leve à escolha do usuário enquanto estiver na área da armadilha."
+},
+{
+  "nome": "Isshi Tōjin",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "C",
+  "custo": "2 de Chakra",
+  "alcance": "Curto",
+  "acao_duracao": "Padrão/Concentrada",
+  "descricao": "É uma técnica de Fuuinjutsu a curta distância, onde o usuário realiza um selo de mão e deve estar perto do alvo, que caso falhe em um teste de Reflexos contra um de Fuuinjutsu do usuário, receberá a condição Imóvel. O alvo permanece nessa condição enquanto o usuário estiver por perto, sendo necessário um teste de Fortitude contra Fuuinjutsu do usuário a cada turno para desfazer o selamento."
+},
+{
+  "nome": "Shikoku Fūin",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "D",
+  "custo": "1 de Chakra",
+  "alcance": "Toque",
+  "acao_duracao": "Bônus/Instantânea",
+  "descricao": "É uma técnica de Fuuinjutsu onde o usuário concentra chakra no palmo e pode usá-lo para encravar sua energia em algo, escrevendo em corpos ou objetos sólidos. Quando utilizada para selamentos, aumenta em +1 a CD dos mesmos."
+},
+{
+  "nome": "Kusari Fūin",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "B",
+  "custo": "4 de Chakra",
+  "alcance": "15 metros",
+  "acao_duracao": "Bônus/Instantânea",
+  "descricao": "É uma técnica de Fuuinjutsu onde o usuário cria correntes de selamento usando pilares e estruturas locais para conter um alvo. Caso o alvo falhe em um teste de Fortitude (CD Técnica+2), ficará com a condição Agarrado e Vulnerável. Enquanto estiver preso, receberá de forma garantida e efetiva qualquer tipo de Fuuinjutsu do usuário."
+},
+{
+  "nome": "Kekkaifu: Gansōkō",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "C",
+  "custo": "2 de Chakra",
+  "alcance": "Pessoal",
+  "acao_duracao": "Reação/Instantânea",
+  "descricao": "É uma técnica de Fuuinjutsu onde o usuário aplica um método de selamento em um objeto, como vestes e bandana, que caso o usuário fosse receber dano, o objeto se moverá por conta própria para o defender, reduzindo em um valor igual a Metade do Mod. de Fuuinjutsu."
+},
+{
+  "nome": "Sōshōryū",
+  "elemento": "Shurikenjutsu",
+  "elemento_secundario": "Fuuinjutsu",
+  "rank": "B",
+  "custo": "4 de Chakra",
+  "alcance": "Pessoal",
+  "acao_duracao": "Padrão/Instantânea",
+  "descricao": "É uma técnica de Fuuinjutsu onde o usuário manipula dois pergaminhos de selamento que rotacionam ao seu redor e liberam de forma frenética todos os conteúdos no mesmo, permitindo o usuário liberar os mesmos em vários ataques, tendo ataques adicionais em um turno igual ao Modificador de Destreza (Velocidade que saca e lança os conteúdos selados), onde o jutsu só acaba quando tudo for esvaziado ou os pergaminhos forem danificados."
+},
+{
+  "nome": "Sōgu: Tensasai",
+  "elemento": "Shurikenjutsu",
+  "elemento_secundario": "Fuuinjutsu",
+  "rank": "A",
+  "custo": "6 de Chakra",
+  "alcance": "50 metros",
+  "acao_duracao": "Padrão/Instantânea",
+  "descricao": "É uma técnica de Fuuinjutsu onde o usuário libera um grande pergaminho em forma de arco nos céus, que libera todos os conteúdos selados no mesmo na forma de uma poderosa e destrutiva chuva, sendo necessário todos no alcance da chuva girarem um teste de Reflexos (CD Técnica) ou receberão o dano de tudo que estiver dentro do pergaminho de uma só vez."
+},
+{
+  "nome": "Fūka Hōin",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "B",
+  "custo": "4 de Chakra",
+  "alcance": "Toque",
+  "acao_duracao": "Padrão/Instantânea",
+  "descricao": "É uma técnica de Fuuinjutsu exclusiva aos ninjas de Konohagakure, sendo capazes de selar ninjútsus e genjutsus em pergaminhos, que podem ser liberados através do Kaifū no Jutsu, sendo que o jutsu terá potência e efeitos aplicados iguais a da pessoa responsável por o selar."
+},
+{
+  "nome": "Keiyaku Fuuin",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "B",
+  "custo": "4 de Chakra",
+  "alcance": "Pessoal",
+  "acao_duracao": "Padrão/Instantânea",
+  "descricao": "É uma técnica de Fuuinjutsu onde o usuário deve entrar em contato físico com o alvo, aplicando um selo que restringe o controle que o alvo tem sobre outros seres, no caso de invocações e seres influenciados por outras técnicas (Genjutsu e semelhantes), devendo aplicar no conjurador dos mesmos para ser efetivo."
+},
+{
+  "nome": "Jigō Jubaku no In",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "B",
+  "custo": "4 de Chakra",
+  "alcance": "Toque",
+  "acao_duracao": "Bônus/Instantânea",
+  "descricao": "É uma técnica de Fuuinjutsu onde o usuário deve entrar em contato físico com o alvo, aplicando um selo que pode ser ativado quando o usuário desejar, mas somente uma vez, aplicando a condição Imóvel, Indefesa e Vulnerável ao inimigo, que pode tentar realizar um teste de Vontade (CD Técnica+3) para se libertar desse selamento, que surge na forma de marcas negras em seu corpo."
+},
+{
+  "nome": "Zekka Konzetsu no Jutsu",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "B",
+  "custo": "4 de Chakra",
+  "alcance": "Toque",
+  "acao_duracao": "Bônus/Instantânea",
+  "descricao": "É uma técnica de Fuuinjutsu onde o usuário deve entrar em contato físico com a língua do alvo, e assim colocar restrição em coisas específicas que o mesmo deve falar. Caso o alvo tente dizer algo da restrição, a marca surgirá e o alvo receberá a condição Paralisia. O selo é desfeito naturalmente com a morte do usuário."
+},
+{
+  "nome": "Tensha Fuuin",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "B",
+  "custo": "4 de Chakra",
+  "alcance": "Toque",
+  "acao_duracao": "Bônus/Instantânea",
+  "descricao": "É uma técnica de Fuuinjutsu onde o usuário deve entrar em contato físico com o alvo, aplicando uma regra específica para ativação de algo que o alvo tenha e esteja relacionada ao usuário, podendo ser aplicado em si mesmo também."
+},
+{
+  "nome": "Jigen Shiki no Jutsu",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "A",
+  "custo": "6 de Chakra",
+  "alcance": "Toque",
+  "acao_duracao": "Padrão/Instantânea",
+  "descricao": "É uma técnica de Fuuinjutsu onde o usuário deve entrar em contato físico com o alvo, aplicando um selo cronometrado, onde ao atingir o tempo limite, algo ocorrerá com o alvo, podendo ir desde o livrar de outros selos, condições ou até a morte do mesmo, sendo que o usuário deve consentir com a aplicação do mesmo para o receber."
+},
+{
+  "nome": "Fūja Hōin",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "A",
+  "custo": "6 de Chakra",
+  "alcance": "Toque",
+  "acao_duracao": "Padrão/Instantânea",
+  "descricao": "É um método de Fuuinjutsu usado para conter selamentos impostos a um alvo, no qual a ativação de um selamento ou marca é necessário o alvo girar um teste de Vontade contra um de Fuuinjutsu do usuário, e caso falhe, a eficácia e ativação do selamento/marca é reduzido pela metade."
+},
+{
+  "nome": "Kaija Hōin",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "A",
+  "custo": "6 de Chakra",
+  "alcance": "Toque",
+  "acao_duracao": "Padrão/Instantânea",
+  "descricao": "É um método de Fuuinjutsu usado para romper selamentos físicos impostos através de uma marca ou semelhante, sendo que réplica o passo a passo de selamento aplicado, mas de forma inversa, girando um teste de Fuuinjutsu (CD Técnica da pessoa que aplicou o selamento). Funciona somente com selamentos de Rank A para baixo."
+},
+{
+  "nome": "Jigen Shiki no Jutsu",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "A",
+  "custo": "6 de Chakra",
+  "alcance": "Variável",
+  "acao_duracao": "Padrão/Concentrada",
+  "descricao": "É uma técnica de Fuuinjutsu onde o usuário deve em conjunto com mais três indivíduos formam uma barreira, isolando uma área determinada pelos mesmos, onde qualquer um (exceto os conjuradores) que entrarem em contato com a barreira receberão Modificador de Espírito de todos os conjuradores somados + d10 de dano verdadeiro. Os conjuradores devem ficar imóveis e concentrados no jutsu."
+},
+{
+  "nome": "Hakke no Fuuin Shiki",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "S",
+  "custo": "10 de Chakra",
+  "alcance": "Toque",
+  "acao_duracao": "Padrão/Instantânea",
+  "descricao": "É uma técnica de Fuuinjutsu exclusiva do Clã Uzumaki, no qual o usuário cria um selamento que permite o alvo ter acesso ao chakra da Bijuu com moderação, onde o usuário pode revelar o selamento e drenar 1/6 do Chakra Máximo da Bijuu. Caso tente usar isso mais de uma vez por combate, resulta no descontrole e Bijuu assumindo controle."
+},
+{
+  "nome": "Tekkō Fuuin",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "A",
+  "custo": "6 de Chakra",
+  "alcance": "Toque",
+  "acao_duracao": "Padrão/Instantânea",
+  "descricao": "É uma técnica de Fuuinjutsu exclusiva de Kumogakure, onde permite aos Jinchuurikis de Kumogakure poderem extrair o chakra da Bijuu, obtendo 1/8 do Chakra Máximo da Bijuu, porém sendo bem vulnerável a outros Fuuinjutsu de mesmo rank focados em desfazer selamentos."
+},
+{
+  "nome": "Gogyō Fuuin",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "A",
+  "custo": "6 de Chakra",
+  "alcance": "Toque",
+  "acao_duracao": "Padrão/Instantânea",
+  "descricao": "É uma técnica de Fuuinjutsu onde o usuário concentra chakra nas pontas dos dedos, criando um chakra maligno de 5 pontos que ao ser aplicado em um alvo, vai trancar a circulação de chakra do mesmo, forçando o alvo a girar um teste de Fortitude (CD Técnica+5) e caso falhe, fica inconsciente e tem risco de morte se falhar em mais 3 testes seguidos de Fortitude (CD Técnica). Caso passe, fica apenas Debilitado, sendo que em ambos os casos, o efeito do selamento reduz pela metade o Chakra Máximo do alvo e dobra o custo de chakra de qualquer coisa do usuário."
+},
+{
+  "nome": "Kaibi Hōin",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "S",
+  "custo": "10 de Chakra",
+  "alcance": "Toque",
+  "acao_duracao": "Padrão/Instantânea",
+  "descricao": "É um método de Fuuinjutsu focado em libertar Bijuus, extraindo com sucesso de um alvo que falhe em um teste de Vontade contra um de Fuuinjutsu do usuário, extraindo a Bijuu em seu potencial máximo e cortando qualquer laço entre a mesma e Jinchuuriki, também criando um contrato de invocação com a Bijuu de forma forçada ao extrair a mesma. Pode também ser usado para converter uma Bijuu em uma invocação."
+},
+{
+  "nome": "Shiki Fuujin",
+  "elemento": "Fuuinjutsu",
+  "elemento_secundario": null,
+  "rank": "S",
+  "custo": "10 de Chakra",
+  "alcance": "Toque",
+  "acao_duracao": "Padrão/Instantânea",
+  "descricao": "É um método de Fuuinjutsu considerado um poderoso e fatal Jutsu Proibido, onde o usuário oferece a sua própria alma e invoca a entidade do Shinigami (Ceifeiro da Morte). Com isso, o usuário precisa chegar até o alvo desejado, fazendo a mão do Shinigami atravessar o corpo do usuário para puxar a alma do alvo, no qual deverá realizar uma sequência de testes de Fuuinjutsu contra Vontade do alvo, onde a cada falha do alvo, 1/3 da alma do alvo será puxada pelo Shinigami. Após os 3 turnos de embate da técnica, o Shinigami irá cortar a alma do usuário e alvo, absorvendo para si a alma do usuário e a parte da alma do oponente que conseguiu puxar. Caso o alvo saia vivo, a parte da alma que foi danificada nunca será curada ou desfeita enquanto tiver selada no Shinigami. Uma pessoa pode desfazer o selo e liberar as almas de quem tiver dentro caso tenha conhecimento sobre o mesmo, porém terá o corpo fatalmente ferido e morrerá em turnos iguais a Metade do Mod. de Constituição."
+}
 ]
 
 
